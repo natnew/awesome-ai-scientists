@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for contributing to **Awesome AI Scientists**.
+Thank you for contributing to **Awesome AI Scientist**.
 
 ## What belongs here
 
