@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Awesome AI Scientists social card">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#05080c" />
+      <stop offset="100%" stop-color="#08141f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g stroke="rgba(67,240,191,0.08)" stroke-width="1">
+    <path d="M0 90H1200" />
+    <path d="M0 180H1200" />
+    <path d="M0 270H1200" />
+    <path d="M0 360H1200" />
+    <path d="M0 450H1200" />
+    <path d="M0 540H1200" />
+    <path d="M120 0V630" />
+    <path d="M300 0V630" />
+    <path d="M480 0V630" />
+    <path d="M660 0V630" />
+    <path d="M840 0V630" />
+    <path d="M1020 0V630" />
+  </g>
+  <g transform="translate(92 96)">
+    <rect width="156" height="156" rx="34" fill="#081018" stroke="#173042" stroke-width="2" />
+    <g fill="none" stroke="#43f0bf" stroke-linecap="round" stroke-width="8">
+      <path d="M44 36h66" />
+      <path d="M44 56h54" />
+      <path d="M44 76h70" />
+      <path d="M44 96h46" />
+      <path d="M44 116h60" />
+    </g>
+    <g fill="#8ef8df">
+      <circle cx="28" cy="36" r="5" />
+      <circle cx="28" cy="56" r="5" />
+      <circle cx="28" cy="76" r="5" />
+      <circle cx="28" cy="96" r="5" />
+      <circle cx="28" cy="116" r="5" />
+    </g>
+    <path d="M124 34v88" fill="none" stroke="#4ea3ff" stroke-linecap="round" stroke-width="5" />
+    <circle cx="124" cy="76" r="10" fill="#4ea3ff" />
+  </g>
+  <text x="92" y="334" fill="#f4fbff" font-family="Space Grotesk, sans-serif" font-size="76" font-weight="700">
+    Awesome AI Scientists
+  </text>
+  <text x="92" y="406" fill="#c7d7e2" font-family="IBM Plex Sans, sans-serif" font-size="33">
+    Clean navigation for papers, tools, datasets, frameworks, domains, and workflows.
+  </text>
+  <text x="92" y="486" fill="#78f7d0" font-family="IBM Plex Mono, monospace" font-size="28">
+    Explore the awesome list faster. Jump to the right section. Open the full README.
+  </text>
+</svg>

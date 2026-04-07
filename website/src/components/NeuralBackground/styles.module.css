@@ -1,0 +1,60 @@
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.canvas,
+.edgeTint,
+.centerMask {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.canvas {
+  display: block;
+  opacity: 1;
+}
+
+.edgeTint {
+  background:
+    radial-gradient(circle at 8% 14%, rgba(67, 240, 191, 0.15), transparent 30%),
+    radial-gradient(circle at 92% 18%, rgba(88, 228, 214, 0.13), transparent 28%),
+    radial-gradient(circle at 82% 82%, rgba(54, 196, 167, 0.11), transparent 30%),
+    linear-gradient(180deg, rgba(7, 11, 16, 0.03), rgba(7, 11, 16, 0.08) 58%, rgba(7, 11, 16, 0.14));
+}
+
+.centerMask {
+  background:
+    radial-gradient(
+      ellipse 60% 44% at 51% 34%,
+      rgba(7, 11, 16, 0.38) 0%,
+      rgba(7, 11, 16, 0.28) 26%,
+      rgba(7, 11, 16, 0.12) 54%,
+      rgba(7, 11, 16, 0.05) 82%,
+      transparent 100%
+    );
+}
+
+@media (max-width: 996px) {
+  .centerMask {
+    background:
+      radial-gradient(
+        ellipse 82% 62% at 50% 30%,
+        rgba(7, 11, 16, 0.48) 0%,
+        rgba(7, 11, 16, 0.34) 32%,
+        rgba(7, 11, 16, 0.16) 68%,
+        rgba(7, 11, 16, 0.05) 100%
+      );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .canvas {
+    opacity: 0.9;
+  }
+}

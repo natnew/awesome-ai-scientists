@@ -1,0 +1,11 @@
+.siteShell {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
+  background: #070b10;
+}
+
+.layoutContent {
+  position: relative;
+  z-index: 2;
+}

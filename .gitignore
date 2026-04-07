@@ -154,6 +154,15 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Docusaurus / Node documentation site
+node_modules/
+website/.docusaurus/
+website/build/
+*.tsbuildinfo
+
+# Local generated reports
+lint_output.txt
+
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -205,3 +214,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# skills
+.github/skills/

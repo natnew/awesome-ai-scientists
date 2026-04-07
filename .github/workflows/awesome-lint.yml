@@ -1,5 +1,8 @@
 name: Awesome Lint
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: ["main"]
@@ -21,3 +24,5 @@ jobs:
 
       - name: Run awesome-lint
         run: npx awesome-lint README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
