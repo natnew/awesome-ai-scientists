@@ -172,6 +172,10 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [UNESCO Recommendation on the Ethics of AI](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) - A global standard with readiness and ethical impact assessment tools.
 - [OECD AI in Science](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html) - Policy proposals on research integrity, open science, and LLM quality standards.
 
+### Authorship and Publishing
+
+- [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819), (arXiv 2511.14819, 2025) — Discuss how AI scientists can publish in their own name.
+
 ### Practical Tools
 - [SecureDNA](https://securedna.org/) - DNA synthesis screening to reduce biosecurity risks.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and control tooling for LLM outputs.
