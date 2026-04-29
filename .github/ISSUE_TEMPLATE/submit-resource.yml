@@ -1,0 +1,99 @@
+name: Submit a resource
+description: Propose a new entry for the curated catalogue.
+title: "[Resource] "
+labels: ["new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a resource. Please complete every field — entries on the site are tagged on three axes (lifecycle, domain, type) and we cannot accept submissions that are missing any of them.
+
+        Read [CONTRIBUTING.md](https://github.com/natnew/awesome-ai-scientists/blob/main/CONTRIBUTING.md) before opening this issue. Open one issue per resource.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      description: The display name as it should appear in the catalogue.
+      placeholder: e.g. AlphaFold
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      description: Link to the primary, stable source — paper DOI, official repo, or project page. Avoid mirrors and aggregators.
+      placeholder: https://github.com/google-deepmind/alphafold
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: 1–2 factual sentences. No marketing language.
+      placeholder: Open-source release of DeepMind's protein structure prediction system.
+    validations:
+      required: true
+  - type: dropdown
+    id: lifecycle
+    attributes:
+      label: Lifecycle stage
+      description: From the canonical lifecycle axis. See [workflows](https://natnew.github.io/awesome-ai-scientists/docs/workflows#canonical-lifecycle-stages).
+      options:
+        - literature-intelligence
+        - hypothesis-generation
+        - experiment-planning
+        - tool-use-execution
+        - evaluation
+        - scientific-communication
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: From the canonical domain axis. Use `cross-domain` for general-purpose entries. See [domains](https://natnew.github.io/awesome-ai-scientists/docs/domains#canonical-domains).
+      options:
+        - drug-discovery-chemistry
+        - materials-science
+        - genomics-biology
+        - climate-earth-sciences
+        - physics-mathematics
+        - cross-domain
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      description: From the canonical type axis. See [resource-types](https://natnew.github.io/awesome-ai-scientists/docs/resource-types#canonical-resource-types).
+      options:
+        - paper
+        - dataset
+        - framework
+        - agent-system
+        - benchmark
+        - tool
+        - tutorial-course
+        - community-event
+        - blog-essay
+        - model
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why it matters
+      description: 1–3 sentences on what is distinctive about this resource and why it belongs here.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing entries and this is not a duplicate.
+          required: true
+        - label: The link points to a primary, stable source.
+          required: true
+        - label: I have read CONTRIBUTING.md.
+          required: true

@@ -1,0 +1,47 @@
+name: Report a broken link or outdated entry
+description: Flag a dead link, moved resource, or entry that no longer reflects the source.
+title: "[Issue] "
+labels: ["link-health"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for broken links, moved repositories, archived projects, or descriptions that no longer match the source. For new resource proposals, use the *Submit a resource* form instead.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or file
+      description: Which page or file contains the issue?
+      placeholder: e.g. website/docs/domains.md or README.md
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Affected link
+      description: The exact URL that is broken or outdated.
+      placeholder: https://example.org/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Describe the problem — 404, redirected, archived, scope changed, etc.
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement (optional)
+      description: If you know the new canonical URL, paste it here.
+      placeholder: https://example.org/new-location
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else useful for triage.
+    validations:
+      required: false

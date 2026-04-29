@@ -1,0 +1,7 @@
+# CODEOWNERS for awesome-ai-scientists
+#
+# Every PR is auto-routed to the listed owners for review.
+# To add a maintainer: append their @handle on the same line, separated by a space.
+# See MAINTAINERS.md for the path to becoming a maintainer.
+
+* @natnew
