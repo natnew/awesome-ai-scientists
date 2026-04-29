@@ -1,6 +1,7 @@
 ---
 title: Browse by Workflow
 description: Direct links to the main workflow and capability sections in the list.
+sidebar_position: 2
 ---
 
 import Link from '@docusaurus/Link';

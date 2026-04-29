@@ -1,6 +1,7 @@
 ---
 title: Browse by Domain
 description: Domain-specific sections in the Awesome AI Scientists list.
+sidebar_position: 3
 ---
 
 import Link from '@docusaurus/Link';

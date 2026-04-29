@@ -1,6 +1,7 @@
 ---
 title: Explore
 description: Fast paths into the full Awesome AI Scientists list.
+sidebar_position: 5
 ---
 
 import Link from '@docusaurus/Link';
