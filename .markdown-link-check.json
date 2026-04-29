@@ -13,8 +13,8 @@
       "pattern": "^https://www\\.nature\\.com/articles/s41599-023-02523-8$" },
     { "_comment": "Springer bot-walls non-browser UAs; verified live in browser 2026-04-29.",
       "pattern": "^https://link\\.springer\\.com/article/10\\.1007/s43681-023-00271-x$" },
-    { "_comment": "GitHub Actions workflow badge SVG returns 404 until the workflow has its first run on main; resolves on merge.",
-      "pattern": "^https://github\\.com/natnew/awesome-ai-scientists/actions/workflows/ci\\.yml/badge\\.svg" }
+    { "_comment": "GitHub Actions workflow badge SVG returns 404 until the workflow has its first run on main; resolves on merge. Regex covers any workflow filename so renames don't require config edits.",
+      "pattern": "^https://github\\.com/natnew/awesome-ai-scientists/actions/workflows/[^/]+/badge\\.svg" }
   ],
   "httpHeaders": [
     {

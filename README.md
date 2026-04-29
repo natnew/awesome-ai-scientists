@@ -242,7 +242,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 
 ### Protein Structure & Language Models
 
-- [AlphaFold 2/3](https://github.com/google-deepmind/alphafold) - Near-experimental protein structure prediction, extended in AlphaFold 3 to DNA, RNA, and ligands.
+- [AlphaFold](https://github.com/google-deepmind/alphafold) - DeepMind's protein structure prediction system; AlphaFold 2 and 3 weights and code, with AlphaFold 3 extending coverage to DNA, RNA, and ligands.
 - [OpenFold 3](https://github.com/aqlaboratory/openfold-3) - Columbia. An open-source AlphaFold 3 reproduction.
 - [Protenix](https://github.com/bytedance/Protenix) - ByteDance. Biomolecular structure prediction plus de novo protein-binder design.
 - [ESM-2](https://github.com/facebookresearch/esm) - Meta AI. Protein language modeling up to 15B parameters.

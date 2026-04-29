@@ -10,7 +10,7 @@ Jump straight to the domain tracks in the README.
 
 ## Canonical domains
 
-These 6 slugs are the **domain axis** used to tag every entry on the site. Use `cross-domain` for general-purpose resources that don't target a single field.
+These 6 canonical domain slugs (5 scientific domains + `cross-domain`) are the **domain axis** used to tag every entry on the site. Use `cross-domain` for general-purpose resources that don't target a single field.
 
 - **`drug-discovery-chemistry`** — cheminformatics, retrosynthesis, docking, chemistry agents.
 - **`materials-science`** — interatomic potentials, materials APIs, discovery benchmarks.
@@ -68,13 +68,14 @@ Hand-picked entries grouped by canonical domain slug. Every bullet carries the f
 
 ### Drug discovery & chemistry {#drug-discovery-chemistry}
 
-Cheminformatics, retrosynthesis, docking, and chemistry-aware agents. The distinctive shape here is **chemistry-grounded tool use**: models are wrapped with reaction templates, simulators, and safety checks so an agent can propose, score, and (sometimes) execute synthesis plans. Most live entries cluster around **experiment-planning** and **tool-use-execution**.
+Cheminformatics, retrosynthesis, docking, and chemistry-aware agents. The distinctive shape here is **chemistry-grounded tool use**: models are wrapped with reaction templates, simulators, and safety checks so an agent can propose, score, and (sometimes) execute synthesis plans. Most live entries cluster around **experiment-planning** and **tool-use-execution**. Five to six flagships:
 
 - **[RDKit](https://github.com/rdkit/rdkit)** — The de-facto open-source cheminformatics toolkit; substrate for almost every Python-based chemistry agent and ML pipeline. *Tags: <code>lifecycle:tool-use-execution</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:framework,tool</code>*
 - **[DeepChem](https://github.com/deepchem/deepchem)** — Open-source library for ML in chemistry, drug discovery, and materials, with a wide catalogue of featurizers, datasets, and pretrained models. *Tags: <code>lifecycle:tool-use-execution,evaluation</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:framework,dataset</code>*
 - **[AiZynthFinder](https://github.com/MolecularAI/aizynthfinder)** — AstraZeneca's Monte Carlo Tree Search retrosynthesis tool with neural policies; canonical reference for synthesis planning. *Tags: <code>lifecycle:experiment-planning</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:framework,tool</code>*
 - **[ChemCrow](https://github.com/ur-whitelab/chemcrow-public)** — LLM agent equipped with 18 expert chemistry tools (synthesis, safety, search) for autonomous chemical reasoning. *Tags: <code>lifecycle:tool-use-execution</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:agent-system,framework</code>*
 - **[DiffDock](https://github.com/gcorso/DiffDock)** — Diffusion-generative model for blind protein–ligand docking; a strong baseline for structure-based drug discovery agents. *Tags: <code>lifecycle:tool-use-execution,evaluation</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:model,paper</code>*
+- **[Coscientist](https://github.com/gomesgroup/coscientist)** — Boiko et al. autonomous agent (Nature 2023) that designs, plans, and executes chemistry experiments end-to-end; the canonical hypothesis-to-execution case study for the domain and the basis for its `domain:drug-discovery-chemistry` tag in [workflows](./workflows.md#hypothesis-generation). *Tags: <code>lifecycle:hypothesis-generation,tool-use-execution</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:agent-system,paper</code>*
 
 ### Materials science {#materials-science}
 

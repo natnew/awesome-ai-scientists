@@ -1,3 +1,12 @@
+/*
+ * Custom theme for awesome-ai-scientists docs.
+ *
+ * NOTE: This stylesheet is currently single-theme (dark only). The colour
+ * variables below set the dark palette directly on :root, and component
+ * overrides assume the dark surface. Re-enabling Docusaurus light mode would
+ * require splitting these into [data-theme='dark'] / [data-theme='light']
+ * blocks. Tracked as a follow-up.
+ */
 :root {
   --ifm-color-primary: #43f0bf;
   --ifm-color-primary-dark: #25e6af;
@@ -366,8 +375,15 @@ pre {
 }
 
 /* Results dropdown rendered by @easyops-cn/docusaurus-search-local. */
-[class*='searchBar_'] [class*='dropdownMenu_'],
-[class*='searchBar_'] .dropdown-menu,
+/*
+ * FIXME(search-plugin): @easyops-cn/docusaurus-search-local emits hashed
+ * CSS module class names like `searchBar_xyz` and `dropdownMenu_abc`.
+ * The substring matchers below are inherently fragile across plugin
+ * upgrades. Wrapped in :where() to keep specificity at 0 so consumers can
+ * override without `!important`. Re-audit on every search-plugin bump.
+ */
+:where([class*='searchBar_']) :where([class*='dropdownMenu_']),
+:where([class*='searchBar_']) .dropdown-menu,
 .search-result-dropdown,
 .dropdown-menu.search-bar-dropdown-menu {
   margin-top: 0.4rem;
@@ -379,8 +395,8 @@ pre {
   backdrop-filter: blur(14px);
 }
 
-[class*='searchBar_'] [class*='hitTree_'] a,
-[class*='searchBar_'] [class*='hitFooter_'] a,
+:where([class*='searchBar_']) :where([class*='hitTree_']) a,
+:where([class*='searchBar_']) :where([class*='hitFooter_']) a,
 .search-result-match,
 .search-bar-dropdown-menu a {
   display: block;
@@ -391,16 +407,16 @@ pre {
   transition: background 160ms ease, color 160ms ease;
 }
 
-[class*='searchBar_'] [class*='hitTree_'] a:hover,
-[class*='searchBar_'] [class*='hitFooter_'] a:hover,
+:where([class*='searchBar_']) :where([class*='hitTree_']) a:hover,
+:where([class*='searchBar_']) :where([class*='hitFooter_']) a:hover,
 .search-result-match:hover,
 .search-bar-dropdown-menu a:hover,
-[class*='searchBar_'] [aria-selected='true'] a {
+:where([class*='searchBar_']) [aria-selected='true'] a {
   background: rgba(67, 240, 191, 0.1);
   color: #f4fbff;
 }
 
-[class*='searchBar_'] mark,
+:where([class*='searchBar_']) mark,
 .search-result-match mark {
   padding: 0 0.15rem;
   border-radius: 0.25rem;

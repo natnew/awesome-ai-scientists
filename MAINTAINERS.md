@@ -17,6 +17,8 @@ All pull requests are auto-routed to the listed maintainers via [`.github/CODEOW
 
 ## Review cadence
 
+> **Bootstrap status.** The project is in early bootstrap with a single maintainer ([@natnew](https://github.com/natnew)). The SLA targets below describe the *steady-state* cadence we are committing to as additional maintainers come on. While the project is single-maintainer, response times may run longer; the targets in the table are still our written goal.
+
 | Activity | Cadence | Target |
 |---|---|---|
 | New-resource triage | Weekly | First response within 14 days of issue open. |

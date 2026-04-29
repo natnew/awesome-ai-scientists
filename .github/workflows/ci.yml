@@ -1,9 +1,23 @@
+# Action pinning policy: third-party actions pinned to a fixed minor (e.g. @v4, @v18).
+# Bump deliberately when upgrading; do not float to unpinned majors.
 name: CI
 
 on:
   pull_request:
+    paths:
+      - 'website/**'
+      - '**/*.md'
+      - '.github/workflows/ci.yml'
+      - '.markdown-link-check.json'
+      - '.markdownlint-cli2.jsonc'
   push:
     branches: [main]
+    paths:
+      - 'website/**'
+      - '**/*.md'
+      - '.github/workflows/ci.yml'
+      - '.markdown-link-check.json'
+      - '.markdownlint-cli2.jsonc'
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -52,6 +66,9 @@ jobs:
       - name: Run link-check
         working-directory: website
         run: npm run link-check
+      - name: Check sidebar order
+        working-directory: website
+        run: npm run check-sidebar-order
 
   markdownlint:
     name: Markdownlint
