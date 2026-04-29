@@ -1,12 +1,13 @@
 # Awesome AI Scientists
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 > A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
 
 **[Website](https://natnew.github.io/awesome-ai-scientists/)** · **[Contents](#contents)** · **[Contributing](CONTRIBUTING.md)**
 
 ## Contents
+
 - [Foundational Papers & Systems](#foundational-papers--systems)
 - [Surveys & Overviews](#surveys--overviews)
 - [Literature Intelligence & Knowledge Extraction](#literature-intelligence--knowledge-extraction)
@@ -28,6 +29,7 @@
 - [Meta-Resources & Awesome Lists](#meta-resources--awesome-lists)
 
 ## Foundational Papers & Systems
+
 Landmark systems that define the AI Scientist paradigm.
 
 - [The AI Scientist v1](https://arxiv.org/abs/2408.06292) - Sakana AI, 2024. First end-to-end system for fully automated scientific discovery. Generates ideas, writes code, runs experiments, and produces LaTeX papers with automated peer review at roughly $15 per paper.
@@ -43,19 +45,23 @@ Landmark systems that define the AI Scientist paradigm.
 - [Stanford Ideation Study](https://arxiv.org/abs/2409.04109) - Si, Yang, and Hashimoto, 2024. LLM-generated research ideas were judged more novel than expert human ideas in blind evaluation.
 
 ## Surveys & Overviews
+
 - [Scientific Discovery in the Age of AI](https://www.nature.com/articles/s41586-023-06221-2) - Nature, 2023. A broad review of AI breakthroughs across the research lifecycle.
 - [Agentic AI for Scientific Discovery](https://arxiv.org/abs/2503.08979) - 2025. Categorizes existing systems across chemistry, biology, and materials science.
 - [Towards Scientific Intelligence: LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047) - 2025. A taxonomy of LLM-based scientific agent architectures and evaluation benchmarks.
 
 ## Literature Intelligence & Knowledge Extraction
+
 Tools for searching, retrieving, synthesizing, and extracting knowledge from scientific literature.
 
 ### RAG & QA Systems
+
 - [PaperQA2](https://github.com/Future-House/paper-qa) - FutureHouse. An agentic RAG system for scientific literature search, summarization, and contradiction detection.
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
 
 ### Knowledge Graphs & Metadata APIs
+
 - [OpenAlex](https://openalex.org/) - A fully open knowledge graph with hundreds of millions of works, authors, and institutions.
 - [Semantic Scholar API](https://www.semanticscholar.org/product/api) - Allen AI. A free API with 200M+ papers, citation graphs, recommendations, and AI-generated TL;DRs.
 - [S2ORC](https://github.com/allenai/s2orc) - Allen AI. A large open corpus of machine-readable full-text academic papers.
@@ -65,12 +71,14 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [CORE](https://core.ac.uk/) - An open-access full-text aggregator with hundreds of millions of metadata records.
 
 ### Scientific Language Models
+
 - [Galactica](https://galactica.org/) - Meta AI. A 120B-parameter scientific language model trained on papers, textbooks, and knowledge bases.
 - [SciBERT](https://github.com/allenai/scibert) - Allen AI. BERT trained on 1.14M scientific papers with a scientific vocabulary.
 - [BioGPT](https://github.com/microsoft/BioGPT) - Microsoft. A biomedical language model with strong QA and relation-extraction performance.
 - [BioMedLM](https://huggingface.co/stanford-crfm/BioMedLM) - Stanford CRFM. A 2.7B-parameter biomedical language model.
 
 ## Hypothesis Generation & Ideation
+
 Systems for AI-driven hypothesis generation, novelty detection, and research ideation.
 
 - [SciMON](https://arxiv.org/abs/2305.14259) - Wang et al., ACL 2024. Retrieves inspirations from prior work and iteratively optimizes ideas for novelty.
@@ -79,6 +87,7 @@ Systems for AI-driven hypothesis generation, novelty detection, and research ide
 - [KG-CoI](https://arxiv.org/abs/2411.02382) - Xiong et al., 2024. A knowledge-graph-grounded hypothesis generation system with hallucination detection.
 
 ## Experiment Planning & Design
+
 Bayesian optimization, adaptive design, and intelligent experiment selection.
 
 - [BoTorch](https://botorch.org/) - Meta. A modular Bayesian optimization library on PyTorch.
@@ -91,15 +100,18 @@ Bayesian optimization, adaptive design, and intelligent experiment selection.
 - [GRYFFIN](https://github.com/aspuru-guzik-group/gryffin) - Descriptor-aware optimization for categorical chemical spaces.
 
 ## Tool-Use & Lab Automation
+
 Frameworks connecting AI reasoning to scientific databases, code execution, and physical instruments.
 
 ### Robotic & Cloud Lab Platforms
+
 - [Opentrons](https://opentrons.com/) - Open-source lab robotics with a Python API.
 - [ChemOS 2.0](https://github.com/aspuru-guzik-group/ChemOS) - An open-source self-driving lab orchestration platform using SiLA2.
 - [Emerald Cloud Lab](https://www.emeraldcloudlab.com/) - Remote access to hundreds of instruments with built-in lab information systems.
 - [Benchling](https://www.benchling.com/) - Biotech data infrastructure with ELN, LIMS, and molecular biology tooling.
 
 ### Scientific Database APIs
+
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - A massive chemistry database with programmatic access via PUG-REST.
 - [UniProt](https://www.uniprot.org/) - Comprehensive protein sequence and functional data.
 - [ChEMBL](https://www.ebi.ac.uk/chembl/) - A large database of bioactive compounds with REST access.
@@ -107,6 +119,7 @@ Frameworks connecting AI reasoning to scientific databases, code execution, and 
 - [PDB (Protein Data Bank)](https://www.rcsb.org/) - Experimentally determined macromolecular structures with REST and GraphQL interfaces.
 
 ## Multi-Agent Architectures for Science
+
 Systems where multiple specialized agents collaborate, debate, and refine scientific work.
 
 - [SciAgents](https://arxiv.org/abs/2409.05556) - Ghafarollahi and Buehler, MIT 2024. A KG plus multi-agent pipeline for materials discovery built on AutoGen.
@@ -118,6 +131,7 @@ Systems where multiple specialized agents collaborate, debate, and refine scient
 - [CAMEL](https://github.com/camel-ai/camel) - A role-playing agent communication framework.
 
 ## Benchmarks & Evaluation
+
 Measuring scientific AI capabilities across reasoning, coding, and autonomous research.
 
 - [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) - ICLR 2025. A benchmark with 102 tasks drawn from peer-reviewed scientific workflows.
@@ -146,6 +160,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 | QM9           | Quantum chemistry     | 134K molecules    | Various mirrors                                        |
 
 ## Scientific Communication & Reporting
+
 Automating the last mile from results to manuscripts, figures, and reports.
 
 - [AI Scientist Paper Module](https://github.com/SakanaAI/AI-Scientist) - Sakana AI. Generates LaTeX manuscripts with figures, citations, and automated review.
@@ -158,15 +173,18 @@ Automating the last mile from results to manuscripts, figures, and reports.
 - [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Converts Matplotlib figures to TikZ and PGFPlots for LaTeX.
 
 ## Ethics, Safety & Responsible AI for Science
+
 Dual-use concerns, hallucination, reproducibility, epistemic integrity, and governance.
 
 ### Key Papers & Reports
+
 - [Dual-use capabilities of concern of biological AI models](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011354) - Carter, Sandbrink et al., 2025. Proposes evaluation methods with preset risk thresholds and mitigation actions.
 - [AI Hallucination Taxonomy](https://www.nature.com/articles/s41599-023-02523-8) - Zhou et al., 2024. A classification of distorted information in AI-generated content.
 - [The ethics of using AI in scientific research](https://link.springer.com/article/10.1007/s43681-023-00271-x) - Resnik & Hosseini, 2024. Actionable recommendations for responsible AI use in science.
 - [AI Scientist Evaluation (ARI)](https://www.alignmentforum.org/posts/Rz9kXk4JbH9jKz5z/evaluation-of-automated-scientist-v1) - A critical assessment of AI Scientist v1 limitations, failure modes, and risks.
 
 ### Policy Frameworks
+
 - [EU Living Guidelines on Responsible Use of Generative AI in Research](https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en) - Guidance on transparency, responsibility, and non-authorship for AI systems.
 - [UNESCO Recommendation on the Ethics of AI](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) - A global standard with readiness and ethical impact assessment tools.
 - [OECD AI in Science](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html) - Policy proposals on research integrity, open science, and LLM quality standards.
@@ -176,6 +194,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819), (arXiv 2511.14819, 2025) — Discuss how AI scientists can publish in their own name.
 
 ### Practical Tools
+
 - [SecureDNA](https://securedna.org/) - DNA synthesis screening to reduce biosecurity risks.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and control tooling for LLM outputs.
 - [FactScore](https://github.com/shmsw25/FActScore) - Fine-grained fact verification for model outputs.
@@ -183,12 +202,14 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 ## Domain: Drug Discovery & Chemistry
 
 ### Toolkits & Platforms
+
 - [RDKit](https://www.rdkit.org/) - Industry-standard open-source cheminformatics.
 - [DeepChem](https://deepchem.io/) - Deep learning tooling for drug discovery, materials science, and quantum chemistry.
 - [TorchDrug](https://torchdrug.ai/) - A GPU-accelerated graph-based molecular ML platform.
 - [Open Babel](http://openbabel.org/) - Chemical file format conversion and molecular toolkit.
 
 ### Molecular Generation & Docking
+
 - [DiffDock](https://github.com/gcorso/DiffDock) - MIT, 2022. Diffusion-based molecular docking.
 - [REINVENT 4](https://github.com/MolecularAI/REINVENT4) - AstraZeneca. De novo drug design via reinforcement learning.
 - [MoleculeSTM](https://github.com/chao1224/MoleculeSTM) - Multi-modal molecular understanding across SMILES, graphs, and text.
@@ -196,11 +217,13 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [Uni-Mol](https://github.com/dptech-corp/Uni-Mol) - A 3D molecular pretraining framework.
 
 ### Retrosynthesis & Reactions
+
 - [AiZynthFinder](https://github.com/MolecularAI/AiZynthFinder) - AstraZeneca. Template-based retrosynthetic planning via Monte Carlo tree search.
 - [RXN for Chemistry](https://rxn.res.ibm.com/) - IBM. Transformer-based chemical reaction prediction.
 - [ASKCOS](https://askcos.mit.edu/) - MIT's retrosynthesis and pathway planning platform.
 
 ### Chemistry Agents
+
 - [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) - An LLM plus chemistry-tools agent system.
 
 ## Domain: Materials Science
@@ -218,6 +241,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 ## Domain: Genomics & Biology
 
 ### Protein Structure & Language Models
+
 - [AlphaFold 2/3](https://github.com/google-deepmind/alphafold) - Near-experimental protein structure prediction, extended in AlphaFold 3 to DNA, RNA, and ligands.
 - [OpenFold 3](https://github.com/aqlaboratory/openfold-3) - Columbia. An open-source AlphaFold 3 reproduction.
 - [Protenix](https://github.com/bytedance/Protenix) - ByteDance. Biomolecular structure prediction plus de novo protein-binder design.
@@ -229,6 +253,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [RFDiffusion](https://github.com/RosettaCommons/RFdiffusion) - Baker Lab. Protein design via diffusion models.
 
 ### Genomic Foundation Models
+
 - [Evo 2](https://github.com/evo-design/evo) - Arc Institute. A 40B-parameter genomic model trained on 9.3T DNA bases.
 - [Enformer](https://github.com/deepmind/deepmind-research/tree/master/enformer) - DeepMind. Predicts gene expression from DNA sequence across long contexts.
 - [Nucleotide Transformer](https://github.com/instadeepai/nucleotide-transformer) - InstaDeep and NVIDIA. Foundation models for genomics.
@@ -236,6 +261,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [DNABERT-2](https://github.com/MAGICS-LAB/DNABERT_2) - A multi-species genome foundation model.
 
 ### Single-Cell & Omics
+
 - [scvi-tools](https://scvi-tools.org/) - Deep learning tooling for single-cell omics.
 - [scGPT](https://github.com/bowang-lab/scGPT) - A foundation model for single-cell biology.
 - [Geneformer](https://huggingface.co/ctheodoris/Geneformer) - Christina Theodoris. A transformer pretrained on 30M single-cell transcriptomes.
@@ -278,6 +304,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 | Geneformer       | `ctheodoris/Geneformer`               | Single-cell       | 30M transcriptomes      |
 
 ## Agent Frameworks (General-Purpose)
+
 Not science-specific, but widely used to build scientific agent systems.
 
 - [LangChain](https://github.com/langchain-ai/langchain) - Foundation for many scientific LLM-agent applications.
@@ -296,4 +323,5 @@ Not science-specific, but widely used to build scientific agent systems.
 - [LLMs-in-science](https://github.com/ur-whitelab/LLMs-in-science) - White Lab. A living bibliography of LLM scientific agents.
 
 ## Contributing
+
 See `CONTRIBUTING.md`.

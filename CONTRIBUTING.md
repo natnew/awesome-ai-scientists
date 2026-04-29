@@ -5,6 +5,7 @@ Thank you for contributing to **Awesome AI Scientists**.
 ## What belongs here
 
 Resources should be directly relevant to building, evaluating, or governing “AI Scientist” systems, including:
+
 - Surveys and foundational references
 - Agent architectures and tool-use patterns
 - Benchmarks, datasets, evaluation frameworks
@@ -22,6 +23,7 @@ Resources should be directly relevant to building, evaluating, or governing “A
 ## Quality bar
 
 A good entry has:
+
 - A stable link
 - A clear name
 - A description that explains why it matters
@@ -37,6 +39,7 @@ A good entry has:
 ## Optional: add categories
 
 If you propose a new section, explain:
+
 - The gap it fills
 - Why it cannot fit an existing section
 - How many high-quality entries you expect to add soon
