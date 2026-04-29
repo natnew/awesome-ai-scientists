@@ -9,12 +9,14 @@ We pledge to make participation in this project a harassment-free experience for
 ## Our standards
 
 Examples of behaviour that contributes to a positive environment include:
+
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
 - Gracefully accepting constructive feedback
 - Focusing on what is best for the community
 
 Examples of unacceptable behaviour include:
+
 - Harassment, insults, or derogatory comments
 - Trolling, personal attacks, or sustained disruption
 - Publishing others’ private information without permission

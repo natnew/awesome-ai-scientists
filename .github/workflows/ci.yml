@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build (Docusaurus)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - name: Install
+        working-directory: website
+        run: npm ci
+      - name: Build
+        working-directory: website
+        run: npm run build
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-build
+          path: website/build
+          retention-days: 7
+
+  link-check:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - name: Install
+        working-directory: website
+        run: npm ci
+      - name: Run link-check
+        working-directory: website
+        run: npm run link-check
+
+  markdownlint:
+    name: Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: |
+            **/*.md
