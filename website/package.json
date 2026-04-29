@@ -7,7 +7,8 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "clear": "docusaurus clear",
+    "link-check": "node scripts/link-check.mjs"
   },
   "engines": {
     "node": ">=20"
@@ -27,6 +28,7 @@
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "markdown-link-check": "^3.14.2",
     "typescript": "^5.5.4"
   }
 }

@@ -21,7 +21,7 @@ Axes are independent and filterable: a resource may carry multiple values per ax
 > **AlphaFold 3** — protein structure prediction across the proteome.
 > Tags: `lifecycle:experiment-planning,evaluation` · `domain:genomics-biology` · `type:model,paper`
 
-Maintainers: see [`specs/2026-04-29-information-architecture/`](https://github.com/natnew/awesome-ai-scientists/tree/main/specs) for the rationale behind this taxonomy.
+Maintainers: the rationale behind this taxonomy lives in the local `specs/2026-04-29-information-architecture/` folder (gitignored).
 
 ## Pick your path
 

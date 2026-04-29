@@ -1,0 +1,32 @@
+{
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206, 401, 403, 429, 503, 530],
+  "ignorePatterns": [
+    { "pattern": "^http://localhost" },
+    { "pattern": "^https?://localhost" },
+    { "pattern": "^mailto:" },
+    { "pattern": "^#" },
+    { "_comment": "Flaky against headless fetch; verified live in browser 2026-04-29.",
+      "pattern": "^https://www\\.nature\\.com/articles/s41599-023-02523-8$" },
+    { "_comment": "Springer bot-walls non-browser UAs; verified live in browser 2026-04-29.",
+      "pattern": "^https://link\\.springer\\.com/article/10\\.1007/s43681-023-00271-x$" }
+  ],
+  "httpHeaders": [
+    {
+      "urls": [
+        "https://github.com/",
+        "https://arxiv.org/",
+        "https://www.nature.com/",
+        "https://link.springer.com/",
+        "https://doi.org/"
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; markdown-link-check/awesome-ai-scientists)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      }
+    }
+  ]
+}
