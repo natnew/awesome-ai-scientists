@@ -22,9 +22,10 @@ Closes #
 
 ## Review checklist
 
+- [ ] Linked to an accepted "Submit a resource" issue (`Closes #NNN`) — required for resource additions.
 - [ ] All links resolve (`npm run link-check` passes locally).
 - [ ] Every new or edited entry uses the canonical format: `- [Name](url) — one-line description. \`lifecycle:slug\` \`domain:slug\` \`type:slug\``.
-- [ ] All three taxonomy tags are present and use slugs from `workflows.md`, `domains.md`, and `resource-types.md`.
+- [ ] All three taxonomy tags are present and use slugs from `workflows.md`, `domains.md`, and `resource-types.md`. Multi-tag values are comma-separated with the **primary slug first**.
 - [ ] Description is factual and neutral; no marketing language.
 - [ ] No duplicate of an existing entry (searched the catalogue).
 - [ ] `npm run build` succeeds in `website/`.

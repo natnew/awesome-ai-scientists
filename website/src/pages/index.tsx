@@ -270,7 +270,12 @@ export default function Home(): JSX.Element {
           </div>
           <div className={styles.startCards}>
             {startCards.map((item) => (
-              <Link key={item.title} className={styles.startCard} to={item.href}>
+              <Link
+                key={item.title}
+                className={styles.startCard}
+                to={item.href}
+                aria-label={`${item.title}: ${item.description}`}
+              >
                 <p className={styles.cardEyebrow}>{item.eyebrow}</p>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>

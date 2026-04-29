@@ -10,10 +10,10 @@ description: Maintains CHANGELOG.md in the project root using git commit history
 1. Run the script from the project root:
 
 ```bash
-python3 <skill-dir>/scripts/changelog.py
+python skills/changelog/scripts/changelog.py
 ```
 
-Where `<skill-dir>` is the directory containing this skill. Claude Code exposes the skill path — use it directly.
+On macOS or Linux, substitute `python3` if `python` is not on your PATH. On Windows, the bundled `python` launcher is correct. Claude Code can invoke either; pick whichever resolves to a Python 3 interpreter on your system.
 
 2. The script handles both cases automatically:
    - **No CHANGELOG.md**: reads full git history, writes the file with all dates

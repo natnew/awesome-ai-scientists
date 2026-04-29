@@ -31,8 +31,8 @@ These are current standouts from across the list, not a recency feed.
   </Link>
   <Link className="doc-card" href="https://github.com/google-deepmind/alphafold">
     <p className="eyebrow">Biology</p>
-    <h3>AlphaFold 2/3</h3>
-    <p>A central domain entry for biology and structure-focused work.</p>
+    <h3>AlphaFold</h3>
+    <p>A central domain entry for biology and structure-focused work (AlphaFold 2 and 3).</p>
   </Link>
   <Link className="doc-card" href="https://github.com/langchain-ai/langgraph">
     <p className="eyebrow">Frameworks</p>

@@ -5,12 +5,12 @@
  * Targets the curated file list locked in specs/2026-04-29-search-link-health/plan.md:
  *   - README.md
  *   - CONTRIBUTING.md
- *   - website/docs/*.md
+ *   - website/docs/*.md (globbed so new docs are picked up automatically)
  *
  * Exits non-zero if any file reports dead links. Designed so Phase 7 (CI) can
  * call `npm run link-check` from `website/` unchanged.
  */
-import {readFileSync, existsSync} from 'node:fs';
+import {readFileSync, existsSync, readdirSync} from 'node:fs';
 import {dirname, resolve, relative} from 'node:path';
 import {fileURLToPath, pathToFileURL} from 'node:url';
 import {createRequire} from 'node:module';
@@ -24,17 +24,13 @@ const repoRoot = resolve(websiteDir, '..');
 const configPath = resolve(repoRoot, '.markdown-link-check.json');
 const config = JSON.parse(readFileSync(configPath, 'utf8'));
 
-const targets = [
-  'README.md',
-  'CONTRIBUTING.md',
-  'website/docs/start-here.md',
-  'website/docs/workflows.md',
-  'website/docs/domains.md',
-  'website/docs/resource-types.md',
-  'website/docs/explore.md',
-  'website/docs/highlights.md',
-  'website/docs/site-development.md',
-];
+const docsDir = resolve(websiteDir, 'docs');
+const docFiles = readdirSync(docsDir)
+  .filter((name) => name.endsWith('.md'))
+  .sort()
+  .map((name) => `website/docs/${name}`);
+
+const targets = ['README.md', 'CONTRIBUTING.md', ...docFiles];
 
 function checkOne(absPath) {
   const fileDir = dirname(absPath);

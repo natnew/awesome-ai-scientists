@@ -6,9 +6,19 @@ permissions:
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'README.md'
+      - '.github/workflows/awesome-lint.yml'
   pull_request:
     branches: ["main"]
+    paths:
+      - 'README.md'
+      - '.github/workflows/awesome-lint.yml'
   workflow_dispatch:
+
+concurrency:
+  group: awesome-lint-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   awesome-lint:

@@ -43,14 +43,18 @@ This entry: links to the canonical repo, describes what it is in one sentence, a
 
 ## How to submit a resource
 
-The catalogue uses an **issue-first workflow**. PRs that add resources without a linked, accepted issue will be asked to open one.
+The catalogue uses an **issue-first workflow**. PRs that add resources without a linked, accepted issue will be asked to open one. Browse all forms at the [issue template picker](https://github.com/natnew/awesome-ai-scientists/issues/new/choose).
 
-1. **Open an issue** using the [Submit a resource](.github/ISSUE_TEMPLATE/submit-resource.yml) form. Fill every field — name, URL, description, lifecycle, domain, type, and rationale.
+1. **Open an issue** using the [Submit a resource](https://github.com/natnew/awesome-ai-scientists/issues/new?template=submit-resource.yml) form. Fill every field — name, URL, description, lifecycle, domain, type, and rationale. Lifecycle and type accept multiple selections; pick every slug that genuinely applies.
 2. **Wait for triage.** A maintainer will accept, request changes, or close with a reason. See [MAINTAINERS.md](MAINTAINERS.md) for the review cadence.
 3. **Open a pull request** referencing the accepted issue (`Closes #NNN`). Add the entry to the most appropriate page under `website/docs/` and, if relevant, the matching section of `README.md`. Use the canonical entry format above.
 4. **Pass the checks.** `npm run build` and `npm run link-check` must pass locally; CI runs them again on PR.
 
-For broken links or outdated entries, use the [Report a broken link or outdated entry](.github/ISSUE_TEMPLATE/report-issue.yml) form instead.
+For broken links or outdated entries, use the [Report a broken link or outdated entry](https://github.com/natnew/awesome-ai-scientists/issues/new?template=report-issue.yml) form instead.
+
+### Project constitution
+
+The mission, tech stack, and roadmap that govern this catalogue live in `specs/mission.md`, `specs/tech-stack.md`, and `specs/roadmap.md`. These files are kept **local-only** (gitignored) as working documents for maintainers — if you need a copy to ground a substantial proposal, ask in the related issue and a maintainer will paste the relevant excerpt.
 
 ## Review checklist
 
@@ -58,7 +62,7 @@ Self-check before opening the PR; reviewers will use the same list.
 
 - [ ] Linked to an accepted "Submit a resource" issue.
 - [ ] Entry uses the canonical format with em-dash and three backticked tags.
-- [ ] All three taxonomy tags are present and use valid slugs.
+- [ ] All three taxonomy axes are tagged; lifecycle and type may carry multiple slugs (comma-separated, primary first).
 - [ ] Link resolves and points to a primary, stable source.
 - [ ] Description is factual and neutral (no "amazing", "powerful", "cutting-edge").
 - [ ] No duplicate of an existing entry; if related, the existing entry is improved instead.

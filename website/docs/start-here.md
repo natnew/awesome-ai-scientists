@@ -13,13 +13,15 @@ Pick the closest path and move into the full README from there.
 Every resource on the site is classified along **three independent axes**:
 
 - **Lifecycle stage** — where it fits in the discovery loop. See [workflows](./workflows.md) for the 6 canonical stages (e.g., `literature-intelligence`, `evaluation`).
-- **Domain** — the scientific field it targets. See [domains](./domains.md) for the 5 canonical domains plus `cross-domain`.
+- **Domain** — the scientific field it targets. See [domains](./domains.md) for the 6 canonical domain slugs (5 scientific domains + `cross-domain`).
 - **Resource type** — the kind of artefact it is. See [resource-types](./resource-types.md) for the 10 canonical types (e.g., `paper`, `framework`, `benchmark`).
 
-Axes are independent and filterable: a resource may carry multiple values per axis when appropriate. Tags are written inline in the form:
+Axes are independent and filterable: a resource may carry multiple values per axis when appropriate (lifecycle and type frequently do; domain is usually singular and falls back to `cross-domain` when no field is primary). Tags are written inline in the form:
 
-> **AlphaFold 3** — protein structure prediction across the proteome.
+> **AlphaFold** — protein structure prediction across the proteome (AlphaFold 2 and 3 weights and code).
 > Tags: `lifecycle:experiment-planning,evaluation` · `domain:genomics-biology` · `type:model,paper`
+
+When an entry carries multiple lifecycle or type slugs, list the **primary slug first** — the one that matches the section the entry sits in. The same entry can appear in two sections with the order reversed (see STORM in [workflows](./workflows.md#literature-intelligence) and [scientific communication](./workflows.md#scientific-communication)).
 
 Maintainers: the rationale behind this taxonomy lives in the local `specs/2026-04-29-information-architecture/` folder (gitignored).
 

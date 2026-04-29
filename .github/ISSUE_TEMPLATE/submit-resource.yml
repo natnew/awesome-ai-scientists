@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a resource. Please complete every field — entries on the site are tagged on three axes (lifecycle, domain, type) and we cannot accept submissions that are missing any of them.
+        Thanks for proposing a resource. Please complete every field — entries on the site are tagged on three axes (lifecycle, domain, type) and we cannot accept submissions that are missing any of them. Lifecycle and type accept multiple selections; pick every slug that genuinely applies (primary first).
 
         Read [CONTRIBUTING.md](https://github.com/natnew/awesome-ai-scientists/blob/main/CONTRIBUTING.md) before opening this issue. Open one issue per resource.
   - type: input
@@ -33,20 +33,18 @@ body:
       placeholder: Open-source release of DeepMind's protein structure prediction system.
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: lifecycle
     attributes:
-      label: Lifecycle stage
-      description: From the canonical lifecycle axis. See [workflows](https://natnew.github.io/awesome-ai-scientists/docs/workflows#canonical-lifecycle-stages).
+      label: Lifecycle stage(s)
+      description: From the canonical lifecycle axis. Tick every stage that applies (at least one is required); list the primary one first in the eventual entry. See [workflows](https://natnew.github.io/awesome-ai-scientists/docs/workflows#canonical-lifecycle-stages).
       options:
-        - literature-intelligence
-        - hypothesis-generation
-        - experiment-planning
-        - tool-use-execution
-        - evaluation
-        - scientific-communication
-    validations:
-      required: true
+        - label: literature-intelligence
+        - label: hypothesis-generation
+        - label: experiment-planning
+        - label: tool-use-execution
+        - label: evaluation
+        - label: scientific-communication
   - type: dropdown
     id: domain
     attributes:
@@ -61,24 +59,22 @@ body:
         - cross-domain
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: type
     attributes:
-      label: Resource type
-      description: From the canonical type axis. See [resource-types](https://natnew.github.io/awesome-ai-scientists/docs/resource-types#canonical-resource-types).
+      label: Resource type(s)
+      description: From the canonical type axis. Tick every type that applies (at least one is required); list the primary one first in the eventual entry. See [resource-types](https://natnew.github.io/awesome-ai-scientists/docs/resource-types#canonical-resource-types).
       options:
-        - paper
-        - dataset
-        - framework
-        - agent-system
-        - benchmark
-        - tool
-        - tutorial-course
-        - community-event
-        - blog-essay
-        - model
-    validations:
-      required: true
+        - label: paper
+        - label: dataset
+        - label: framework
+        - label: agent-system
+        - label: benchmark
+        - label: tool
+        - label: tutorial-course
+        - label: community-event
+        - label: blog-essay
+        - label: model
   - type: textarea
     id: rationale
     attributes:
