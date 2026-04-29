@@ -153,6 +153,29 @@ const personas = [
   },
 ];
 
+const startCards = [
+  {
+    eyebrow: 'New here',
+    title: 'Start Here',
+    description: 'Entry points for new readers, builders, and researchers.',
+    href: '/docs/start-here',
+  },
+  {
+    eyebrow: 'By stage',
+    title: 'Workflows',
+    description:
+      'The six lifecycle stages — literature, hypothesis, planning, tool use, evaluation, communication.',
+    href: '/docs/workflows',
+  },
+  {
+    eyebrow: 'By field',
+    title: 'Domains',
+    description:
+      'Chemistry, materials, biology, climate, and physics tracks across the awesome list.',
+    href: '/docs/domains',
+  },
+];
+
 const highlights = [
   {
     label: 'Foundations',
@@ -202,19 +225,21 @@ export default function Home(): JSX.Element {
         <section className={styles.hero}>
           <div className={styles.heroCopy}>
             <p className={styles.eyebrow}>Awesome list navigation</p>
-            <h1>Find AI Scientist resources fast.</h1>
+            <h1>awesome-ai-scientists</h1>
             <p className={styles.heroLead}>
-              Jump into the list by resource type, workflow, domain, or standout entry.
+              A curated collection of resources for building &ldquo;AI Scientist&rdquo; systems
+              &mdash; AI that assists scientific discovery across the full research lifecycle.
+            </p>
+            <p className={styles.heroLead}>
+              We map the tools, papers, datasets, frameworks, and workflows that help machines
+              (and the humans who build them) do real science.
             </p>
             <div className={styles.heroActions}>
-              <Link className="button button--primary button--lg" href={repoBase}>
-                Explore the list
+              <Link className="button button--primary button--lg" to="/docs/start-here">
+                Start here
               </Link>
-              <Link
-                className="button button--secondary button--lg"
-                to="/docs/resource-types"
-              >
-                Browse by category
+              <Link className="button button--secondary button--lg" href={repoBase}>
+                Explore the list
               </Link>
               <Link className="button button--secondary button--lg" to="/docs/highlights">
                 View highlights
@@ -235,6 +260,22 @@ export default function Home(): JSX.Element {
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <p className={styles.sectionLabel}>Start exploring</p>
+            <h2>Three entry points into the navigation layer.</h2>
+          </div>
+          <div className={styles.startCards}>
+            {startCards.map((item) => (
+              <Link key={item.title} className={styles.startCard} to={item.href}>
+                <p className={styles.cardEyebrow}>{item.eyebrow}</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </Link>
+            ))}
           </div>
         </section>
 

@@ -1,6 +1,7 @@
 ---
 title: Site Development
 description: Build and deploy the Docusaurus navigation layer.
+sidebar_position: 7
 ---
 
 This site is a Docusaurus wrapper around the README. The README stays the source of truth; the site stays focused on discovery and navigation.

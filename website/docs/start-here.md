@@ -1,6 +1,7 @@
 ---
 title: Start Here
 description: Entry points for new readers, builders, and researchers.
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link';

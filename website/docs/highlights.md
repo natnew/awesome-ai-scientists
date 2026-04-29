@@ -1,6 +1,7 @@
 ---
 title: Highlights
 description: A compact set of standout entries drawn from the current list.
+sidebar_position: 6
 ---
 
 import Link from '@docusaurus/Link';

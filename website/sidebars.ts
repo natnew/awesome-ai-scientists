@@ -2,18 +2,13 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   docsSidebar: [
-    'explore',
-    'resource-types',
+    'start-here',
     'workflows',
     'domains',
-    'start-here',
+    'resource-types',
+    'explore',
     'highlights',
-    {
-      type: 'category',
-      label: 'Site',
-      collapsed: true,
-      items: ['site-development'],
-    },
+    'site-development',
   ],
 };
 

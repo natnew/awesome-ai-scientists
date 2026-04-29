@@ -1,6 +1,7 @@
 ---
 title: Browse by Resource Type
 description: Direct links to the main resource types in the list.
+sidebar_position: 4
 ---
 
 import Link from '@docusaurus/Link';
