@@ -10,7 +10,7 @@ Jump by scientific workflow stage or capability.
 
 ## Canonical lifecycle stages
 
-These 6 slugs are the **lifecycle axis** used to tag every entry on the site, lifted directly from the [mission](https://github.com/natnew/awesome-ai-scientists/blob/main/specs/mission.md):
+These 6 slugs are the **lifecycle axis** used to tag every entry on the site, lifted directly from the project mission (`specs/mission.md`, kept local):
 
 - **`literature-intelligence`** — search, summarization, citation graphs, knowledge extraction.
 - **`hypothesis-generation`** — proposing novel, testable scientific claims.

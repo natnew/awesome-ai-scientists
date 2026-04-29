@@ -9,7 +9,7 @@ import Link from '@docusaurus/Link';
 These are current standouts from across the list, not a recency feed.
 
 <div className="docs-grid docs-grid--three">
-  <Link className="doc-card" href="https://sakana.ai/ai-scientist-v2/">
+  <Link className="doc-card" href="https://github.com/SakanaAI/AI-Scientist-v2">
     <p className="eyebrow">Foundations</p>
     <h3>The AI Scientist v2</h3>
     <p>A flagship end-to-end system entry for autonomous scientific discovery.</p>

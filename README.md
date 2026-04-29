@@ -31,10 +31,10 @@
 Landmark systems that define the AI Scientist paradigm.
 
 - [The AI Scientist v1](https://arxiv.org/abs/2408.06292) - Sakana AI, 2024. First end-to-end system for fully automated scientific discovery. Generates ideas, writes code, runs experiments, and produces LaTeX papers with automated peer review at roughly $15 per paper.
-- [The AI Scientist v2](https://sakana.ai/ai-scientist-v2/) - Sakana AI, 2025. Adds agentic tree search, removes human-authored templates, and produced the first fully AI-generated paper accepted at an ICLR 2025 workshop.
+- [The AI Scientist v2](https://github.com/SakanaAI/AI-Scientist-v2) - Sakana AI, 2025. Adds agentic tree search, removes human-authored templates, and produced the first fully AI-generated paper accepted at an ICLR 2025 workshop.
 - [Coscientist](https://www.nature.com/articles/s41586-023-06792-0) - Boiko et al., Nature 2023. GPT-4 autonomously designs, plans, and performs chemistry experiments via web search, code execution, and robotic lab control.
 - [ChemCrow](https://arxiv.org/abs/2304.05376) - Bran et al., Nature Machine Intelligence 2024. An LLM augmented with 18 chemistry tools including RDKit, PubChem, retrosynthesis engines, and robotic synthesis tools.
-- [Google DeepMind AI Co-Scientist](https://blog.google/technology/ai/google-deepmind-ai-co-scientist/) - Gottweis et al., 2025. A multi-agent Gemini 2.0 system using generate-debate-evolve with tournament-based Elo ranking.
+- [Google DeepMind AI Co-Scientist](https://arxiv.org/abs/2502.18864) - Gottweis et al., 2025. A multi-agent Gemini 2.0 system using generate-debate-evolve with tournament-based Elo ranking.
 - [Robin](https://github.com/Future-House/robin) - FutureHouse, 2025. An end-to-end drug discovery system that orchestrates specialized agents from literature review through experiment design.
 - [FunSearch](https://www.nature.com/articles/s41586-023-06924-6) - DeepMind, Nature 2024. Pairs an LLM with a systematic evaluator to search in function space and discover new mathematical constructions.
 - [Agent Laboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) - Schmidgall et al., 2025. A PhD, postdoc, and reviewer agent pipeline with large cost reductions versus earlier autonomous methods.
@@ -124,9 +124,8 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [GPQA](https://arxiv.org/abs/2311.12022) - Rein et al., 2023. Graduate-level Google-proof questions across biology, physics, and chemistry.
 - [SciCode](https://scicode-bench.github.io/) - NeurIPS 2024. Research coding problems across 16 scientific subdomains.
 - [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - A benchmark suite for research-agent experimentation ability.
-- [SciEval](https://github.com/Open-SciEval/SciEval) - A large scientific QA benchmark spanning chemistry, physics, and biology.
 - [SciFact](https://github.com/allenai/scifact) - A benchmark for scientific claim verification.
-- [SciBench](https://github.com/mandarbk/scibench) - Open-ended collegiate STEM problem solving.
+- [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
 - [IdeaBench](https://arxiv.org/abs/2411.02429) - A benchmark for evaluating research-idea generation quality.
 
@@ -143,7 +142,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 | The Pile      | Mixed scientific text | Large             | `EleutherAI`                                           |
 | MoleculeNet   | Molecular benchmarks  | Multiple datasets | DeepChem docs                                          |
 | MatBench      | Materials properties  | 13 tasks          | [GitHub](https://github.com/materialsproject/matbench) |
-| Open Catalyst | Catalysis/DFT         | 1.3M+ relaxations | [OCP models](https://ocpmodels.github.io/)             |
+| Open Catalyst | Catalysis/DFT         | 1.3M+ relaxations | [OCP project](https://opencatalystproject.org/)        |
 | QM9           | Quantum chemistry     | 134K molecules    | Various mirrors                                        |
 
 ## Scientific Communication & Reporting
@@ -153,26 +152,22 @@ Automating the last mile from results to manuscripts, figures, and reports.
 - [Manubot](https://manubot.org/) - Open-source collaborative manuscripts via Markdown and GitHub-based automation.
 - [SciNote](https://www.scinote.net/) - An open-source ELN with manuscript-writing support.
 - [SciencePlots](https://github.com/garrettj403/SciencePlots) - One-line Matplotlib style sheets for publication figures.
-- [OverleafCopilot](https://github.com/dsp-lab/OverleafCopilot) - LLM-assisted academic writing directly inside Overleaf.
 - [LLM4Papers](https://github.com/KordingLab/LLM4Papers) - An AI editing agent for Overleaf documents.
 - [Paperpal](https://paperpal.com/) - Academic language improvement trained on scholarly writing.
 - [Writefull](https://www.writefull.com/) - An academic English writing assistant with Overleaf integration.
-- [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) - Converts Matplotlib figures to TikZ and PGFPlots for LaTeX.
-- [tikzplotlib](https://github.com/tikzplotlib/tikzplotlib) - Converts Matplotlib figures to TikZ and PGFPlots for LaTeX.
+- [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Converts Matplotlib figures to TikZ and PGFPlots for LaTeX.
 
 ## Ethics, Safety & Responsible AI for Science
 Dual-use concerns, hallucination, reproducibility, epistemic integrity, and governance.
 
 ### Key Papers & Reports
 - [Dual-use capabilities of concern of biological AI models](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011354) - Carter, Sandbrink et al., 2025. Proposes evaluation methods with preset risk thresholds and mitigation actions.
-- [When AI Meets Biology: Promise, Risk, and Responsibility](https://www.microsoft.com/en-us/research/publication/when-ai-meets-biology-promise-risk-and-responsibility/) - Microsoft Research, 2025. Examines protein-design risks and screening approaches.
 - [AI Hallucination Taxonomy](https://www.nature.com/articles/s41599-023-02523-8) - Zhou et al., 2024. A classification of distorted information in AI-generated content.
-- [The ethics of using AI in scientific research](https://link.springer.com/article/10.1007/s43681-023-00271-x) - Resnik et al., 2024. Actionable recommendations for responsible AI use in science.
+- [The ethics of using AI in scientific research](https://link.springer.com/article/10.1007/s43681-023-00271-x) - Resnik & Hosseini, 2024. Actionable recommendations for responsible AI use in science.
 - [AI Scientist Evaluation (ARI)](https://www.alignmentforum.org/posts/Rz9kXk4JbH9jKz5z/evaluation-of-automated-scientist-v1) - A critical assessment of AI Scientist v1 limitations, failure modes, and risks.
-- [National Academies: Age of AI in the Life Sciences](https://www.nationalacademies.org/our-work/the-age-of-ai-in-the-life-sciences) - Maps AI-enabled biological design and related biosecurity implications.
 
 ### Policy Frameworks
-- [EU Living Guidelines on Responsible Use of Generative AI in Research](https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/guidelines-responsible-use-generative-ai-research-2024-03-20_en) - Guidance on transparency, responsibility, and non-authorship for AI systems.
+- [EU Living Guidelines on Responsible Use of Generative AI in Research](https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en) - Guidance on transparency, responsibility, and non-authorship for AI systems.
 - [UNESCO Recommendation on the Ethics of AI](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) - A global standard with readiness and ethical impact assessment tools.
 - [OECD AI in Science](https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en.html) - Policy proposals on research integrity, open science, and LLM quality standards.
 
@@ -191,7 +186,6 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [RDKit](https://www.rdkit.org/) - Industry-standard open-source cheminformatics.
 - [DeepChem](https://deepchem.io/) - Deep learning tooling for drug discovery, materials science, and quantum chemistry.
 - [TorchDrug](https://torchdrug.ai/) - A GPU-accelerated graph-based molecular ML platform.
-- [DGL-LifeSci](https://lifesci.dgl.ai/) - Life science applications on top of the Deep Graph Library.
 - [Open Babel](http://openbabel.org/) - Chemical file format conversion and molecular toolkit.
 
 ### Molecular Generation & Docking
@@ -218,9 +212,8 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [Pymatgen](https://pymatgen.org/) - A comprehensive Python materials analysis library.
 - [JARVIS](https://github.com/usnistgov/jarvis) - NIST. DFT, ML, and force-field calculations for tens of thousands of materials.
 - [Materials Project API](https://api.materialsproject.org/) - Computed materials data with API access.
-- [CDVAE](https://github.com/MinkaiXu/CDVAE) - Crystal Diffusion VAE for periodic materials generation.
+- [CDVAE](https://github.com/txie-93/cdvae) - Crystal Diffusion VAE for periodic materials generation.
 - [GNoME](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) - DeepMind, Nature 2023. Predicts millions of stable crystals.
-- [MatSci-NLP](https://github.com/MatSciNLP/MatSci-NLP) - NLP benchmarks and resources for materials science.
 
 ## Domain: Genomics & Biology
 
@@ -236,9 +229,9 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [RFDiffusion](https://github.com/RosettaCommons/RFdiffusion) - Baker Lab. Protein design via diffusion models.
 
 ### Genomic Foundation Models
-- [Evo 2](https://arcinstitute.org/manuscripts/evo) - Arc Institute. A 40B-parameter genomic model trained on 9.3T DNA bases.
+- [Evo 2](https://github.com/evo-design/evo) - Arc Institute. A 40B-parameter genomic model trained on 9.3T DNA bases.
 - [Enformer](https://github.com/deepmind/deepmind-research/tree/master/enformer) - DeepMind. Predicts gene expression from DNA sequence across long contexts.
-- [Nucleotide Transformer](https://github.com/xbgo/NucleotideTransformer) - InstaDeep and NVIDIA. Foundation models for genomics.
+- [Nucleotide Transformer](https://github.com/instadeepai/nucleotide-transformer) - InstaDeep and NVIDIA. Foundation models for genomics.
 - [HyenaDNA](https://github.com/HazyResearch/hyena-dna) - Stanford. Long-range genomic sequence modeling at single-nucleotide resolution.
 - [DNABERT-2](https://github.com/MAGICS-LAB/DNABERT_2) - A multi-species genome foundation model.
 
@@ -263,7 +256,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [PySR](https://github.com/MilesCranmer/PySR) - Symbolic regression for interpretable scientific equations.
 - [LaSR](https://arxiv.org/abs/2312.01633) - LLM-guided concept evolution for symbolic regression.
 - [LeanDojo](https://leandojo.org/) - An end-to-end framework for AI theorem proving in Lean 4.
-- [AlphaProof](https://deepmind.google/technologies/alphaproof/) - DeepMind's IMO-level mathematical reasoning system.
+- [AlphaProof](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) - DeepMind's IMO-level mathematical reasoning system.
 - [AlphaGeometry 2](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) - DeepMind's olympiad geometry theorem prover.
 - [DeepXDE](https://deepxde.readthedocs.io/) - Physics-informed neural networks for differential equations.
 - [torchdiffeq](https://github.com/rtqichen/torchdiffeq) - Neural ordinary differential equations in PyTorch.
@@ -301,10 +294,6 @@ Not science-specific, but widely used to build scientific agent systems.
 - [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) - A broad AI-for-science resource list across domains.
 - [Awesome Self-Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) - A directory of autonomous experimentation resources.
 - [LLMs-in-science](https://github.com/ur-whitelab/LLMs-in-science) - White Lab. A living bibliography of LLM scientific agents.
-- [awesome-AI-for-drug-discovery](https://github.com/kexinhuang12345/awesome-AI-for-drug-discovery) - AI drug-discovery resources.
-- [awesome-protein-representation-learning](https://github.com/yangkevin2/awesome-protein-representation-learning) - Protein ML resources.
-- [Awesome-Biomolecule-Generative-Models](https://github.com/chao1224/Awesome-Biomolecule-Generative-Models) - Generative models for biomolecules.
-- [LangChain for Life Sciences and Healthcare](https://www.oreilly.com/library/view/langchain-for-life/9781098167375/) - O'Reilly, 2025. A book on chemistry agents, AlphaFold integration, and multi-agent research teams.
 
 ## Contributing
 See `CONTRIBUTING.md`.

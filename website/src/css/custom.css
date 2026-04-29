@@ -331,6 +331,83 @@ pre {
   font-size: 0.92rem;
 }
 
+/* Local search (@easyops-cn/docusaurus-search-local) — neural-theme overrides. */
+.navbar__search-input,
+.navbar .searchBox_src-theme-SearchBar-styles-module input,
+.navbar input.aa-Input,
+.DocSearch-Button {
+  height: 2.25rem;
+  padding-inline: 0.85rem 2.1rem;
+  border: 1px solid rgba(67, 240, 191, 0.18);
+  border-radius: 999px;
+  background: rgba(10, 18, 27, 0.78);
+  color: #d7e4ed;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.88rem;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.navbar__search-input::placeholder {
+  color: rgba(159, 178, 194, 0.78);
+}
+
+.navbar__search-input:hover,
+.DocSearch-Button:hover {
+  border-color: rgba(67, 240, 191, 0.32);
+  background: rgba(12, 20, 30, 0.9);
+}
+
+.navbar__search-input:focus,
+.navbar__search-input:focus-visible {
+  outline: none;
+  border-color: #43f0bf;
+  box-shadow: 0 0 0 3px rgba(67, 240, 191, 0.22);
+  background: rgba(12, 20, 30, 0.96);
+}
+
+/* Results dropdown rendered by @easyops-cn/docusaurus-search-local. */
+[class*='searchBar_'] [class*='dropdownMenu_'],
+[class*='searchBar_'] .dropdown-menu,
+.search-result-dropdown,
+.dropdown-menu.search-bar-dropdown-menu {
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  border: 1px solid rgba(67, 240, 191, 0.16);
+  border-radius: 1rem;
+  background: rgba(10, 18, 27, 0.96);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(14px);
+}
+
+[class*='searchBar_'] [class*='hitTree_'] a,
+[class*='searchBar_'] [class*='hitFooter_'] a,
+.search-result-match,
+.search-bar-dropdown-menu a {
+  display: block;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.6rem;
+  color: #d7e4ed;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+[class*='searchBar_'] [class*='hitTree_'] a:hover,
+[class*='searchBar_'] [class*='hitFooter_'] a:hover,
+.search-result-match:hover,
+.search-bar-dropdown-menu a:hover,
+[class*='searchBar_'] [aria-selected='true'] a {
+  background: rgba(67, 240, 191, 0.1);
+  color: #f4fbff;
+}
+
+[class*='searchBar_'] mark,
+.search-result-match mark {
+  padding: 0 0.15rem;
+  border-radius: 0.25rem;
+  background: rgba(67, 240, 191, 0.22);
+  color: #f4fbff;
+}
+
 @media (max-width: 996px) {
   .theme-doc-markdown {
     padding: 1.5rem 1.25rem 1.8rem;
