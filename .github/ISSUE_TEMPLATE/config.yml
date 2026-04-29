@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/natnew/awesome-ai-scientists/blob/main/CONTRIBUTING.md
+    about: Read the entry format, review checklist, and submission workflow before opening an issue.
+  - name: Maintainers
+    url: https://github.com/natnew/awesome-ai-scientists/blob/main/MAINTAINERS.md
+    about: Review cadence, current maintainers, and how to become one.
