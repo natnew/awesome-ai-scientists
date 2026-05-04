@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="40" viewBox="0 0 170 40" role="img" aria-label="Contributing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#21262d"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="169" height="39" rx="19.5" fill="url(#bg)" stroke="#30363d"/>
+  <g transform="translate(16 12)" fill="none" stroke="#e6edf3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="3.25" cy="3.25" r="2"/>
+    <circle cx="3.25" cy="12.75" r="2"/>
+    <circle cx="12.75" cy="12.75" r="2"/>
+    <path d="M3.25 5.25v5.5"/>
+    <path d="M12.75 10.75V8a2.5 2.5 0 0 0-2.5-2.5H7.5"/>
+    <path d="M9.25 7.5L7.5 5.5L9.25 3.75"/>
+  </g>
+  <text x="42" y="25.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3" letter-spacing="-0.05">Contributing</text>
+</svg>

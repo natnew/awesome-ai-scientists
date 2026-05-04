@@ -6,7 +6,35 @@
 
 A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
 
-**[Website](https://natnew.github.io/awesome-ai-scientists/)** · **[Contents](#contents)** · **[Contributing](CONTRIBUTING.md)** · **[Maintainers](MAINTAINERS.md)**
+<p align="center">
+  <a href="https://natnew.github.io/awesome-ai-scientists/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github/pill-website-dark.svg">
+      <img alt="Website" src="assets/github/pill-website-light.svg" height="28">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="#contents">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github/pill-contents-dark.svg">
+      <img alt="Contents" src="assets/github/pill-contents-light.svg" height="28">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="CONTRIBUTING.md">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github/pill-contributing-dark.svg">
+      <img alt="Contributing" src="assets/github/pill-contributing-light.svg" height="28">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="MAINTAINERS.md">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github/pill-maintainers-dark.svg">
+      <img alt="Maintainers" src="assets/github/pill-maintainers-light.svg" height="28">
+    </picture>
+  </a>
+</p>
 
 </div>
 
@@ -326,14 +354,14 @@ Not science-specific, but widely used to build scientific agent systems.
 - [Awesome Self-Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) - A directory of autonomous experimentation resources.
 - [LLMs-in-science](https://github.com/ur-whitelab/LLMs-in-science) - White Lab. A living bibliography of LLM scientific agents.
 
-## Contributing
-
 <div align="center">
+
+<h2>Contributing</h2>
 
 <img src="assets/We%20love%20Contributors%20%E2%80%94%20section%20title%20banner.png" alt="We love Contributors" />
 
 Thrilled to have you here.<br/>
-Whether it's a quick typo fix, a fresh resource, a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br/>
+Whether it's a quick typo fix, a fresh resource, <br/>a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br/>
 Jump in and join the community — PRs of every size are welcome.
 
 📝 [Read the contributing guide](CONTRIBUTING.md) · 🐛 [good first issues](https://github.com/natnew/awesome-ai-scientists/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
