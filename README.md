@@ -328,4 +328,14 @@ Not science-specific, but widely used to build scientific agent systems.
 
 ## Contributing
 
-See `CONTRIBUTING.md`.
+<div align="center">
+
+<img src="assets/We%20love%20Contributors%20%E2%80%94%20section%20title%20banner.png" alt="We love Contributors" />
+
+Thrilled to have you here.<br/>
+Whether it's a quick typo fix, a fresh resource, a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br/>
+Jump in and join the community — PRs of every size are welcome.
+
+📝 [Read the contributing guide](CONTRIBUTING.md) · 🐛 [good first issues](https://github.com/natnew/awesome-ai-scientists/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+</div>
