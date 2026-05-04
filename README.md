@@ -1,10 +1,14 @@
+<div align="center">
+
 # Awesome AI Scientists
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-> A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
+A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
 
 **[Website](https://natnew.github.io/awesome-ai-scientists/)** · **[Contents](#contents)** · **[Contributing](CONTRIBUTING.md)** · **[Maintainers](MAINTAINERS.md)**
+
+</div>
 
 ## Contents
 
