@@ -353,6 +353,7 @@ Not science-specific, but widely used to build scientific agent systems.
 - [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) - A broad AI-for-science resource list across domains.
 - [Awesome Self-Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) - A directory of autonomous experimentation resources.
 - [LLMs-in-science](https://github.com/ur-whitelab/LLMs-in-science) - White Lab. A living bibliography of LLM scientific agents.
+- [Awesome AI Startups](https://github.com/nowork-studio/awesome-ai-startups) - A curated list of bootstrapped, pre-seed, and angel-funded AI products built by independent founders.
 
 <div align="center">
 
