@@ -91,6 +91,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [PaperQA2](https://github.com/Future-House/paper-qa) - FutureHouse. An agentic RAG system for scientific literature search, summarization, and contradiction detection.
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
+- [BGPT](https://github.com/connerlambden/bgpt-mcp) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
 
 ### Knowledge Graphs & Metadata APIs
 
@@ -174,6 +175,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
 - [IdeaBench](https://arxiv.org/abs/2411.02429) - A benchmark for evaluating research-idea generation quality.
+- [REFUTE](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) - Apache-2.0 benchmark for evaluating scientific critique, falsification, uncertainty calibration, overclaim detection, and evidence-grounded reasoning in LLMs.
 
 ## Datasets for Scientific AI
 
