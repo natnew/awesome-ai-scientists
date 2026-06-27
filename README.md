@@ -78,6 +78,7 @@ Landmark systems that define the AI Scientist paradigm.
 
 ## Surveys & Overviews
 
+- [What's Missing in Autonomous Research?](https://www.researchgate.net/publication/406952713_What's_Missing_in_Autonomous_Research_A_Systematization_of_SystemsBenchmarks_and_Verification) - Ren, Sun, Yi, Zhang, Guo, Du, and Yang, 2026. A systematization of 56 autonomous-research systems that separates what a system can produce from what it can defend, naming the missing release architecture behind current AI Scientist pipelines.
 - [Scientific Discovery in the Age of AI](https://www.nature.com/articles/s41586-023-06221-2) - Nature, 2023. A broad review of AI breakthroughs across the research lifecycle.
 - [Agentic AI for Scientific Discovery](https://arxiv.org/abs/2503.08979) - 2025. Categorizes existing systems across chemistry, biology, and materials science.
 - [Towards Scientific Intelligence: LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047) - 2025. A taxonomy of LLM-based scientific agent architectures and evaluation benchmarks.
@@ -155,6 +156,7 @@ Frameworks connecting AI reasoning to scientific databases, code execution, and 
 
 Systems where multiple specialized agents collaborate, debate, and refine scientific work.
 
+- [Agon](https://arxiv.org/abs/2606.24177) ([repo](https://github.com/AutoResearch-Factory/Agon)) - Sun et al., 2026. A zero-code, omnidisciplinary research system built around Prompt Economy: compact scientist, coder, and auditor loops that run across scientific domains with prompt dispatchers rather than workflow code.
 - [SciAgents](https://arxiv.org/abs/2409.05556) - Ghafarollahi and Buehler, MIT 2024. A KG plus multi-agent pipeline for materials discovery built on AutoGen.
 - [AgenticSciML](https://arxiv.org/html/2511.07262v1) - 2025. Uses proposers, critics, engineers, retrievers, and evaluators for scientific ML.
 - [VirSci](https://arxiv.org/abs/2410.09403) - Su et al., 2024. Uses agents with different scientific backgrounds to improve research potential.
