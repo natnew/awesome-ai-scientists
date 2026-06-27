@@ -2,7 +2,7 @@
 
 # Awesome AI Scientists
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/blob/main/CONTRIBUTING.md)
 
 A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
 
@@ -225,7 +225,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 
 ### Authorship and Publishing
 
-- [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819), (arXiv 2511.14819, 2025) — Discuss how AI scientists can publish in their own name.
+- [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819) - Discusses how AI scientists can publish under their own name (arXiv 2511.14819, 2025).
 
 ### Practical Tools
 
@@ -360,7 +360,7 @@ Not science-specific, but widely used to build scientific agent systems.
 
 <h2>Contributing</h2>
 
-<img src="assets/We%20love%20Contributors%20%E2%80%94%20section%20title%20banner.png" alt="We love Contributors" />
+<img src="assets/contributors-banner.png" alt="We love Contributors" />
 
 Thrilled to have you here.<br/>
 Whether it's a quick typo fix, a fresh resource, <br/>a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br/>
