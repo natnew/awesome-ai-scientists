@@ -57,7 +57,6 @@ CI (`.github/workflows/ci.yml`) runs three jobs on any `**/*.md` or `website/**`
 - **`website/docs/*.md`** — tagged site. Canonical format: `- [Name](url) — one sentence. \`lifecycle:slug\` \`domain:slug\` \`type:slug\`` (em-dash, **three tags required**).
 - **Two surfaces, one catalogue.** A resource usually touches the right `website/docs/` page and, where it fits, the matching `README.md` section. **Infer format from the file you edit; never cross the formats.**
 
-
 ## Maintainer process files
 
 `CONTRIBUTING.md` (issue-first workflow, full checklist) · `.github/ISSUE_TEMPLATE/*` (submit-resource → `new-resource`; report-issue → `link-health`) · `pull_request_template.md` · `MAINTAINERS.md` · `.github/CODEOWNERS` (auto-routes review to @natnew).
@@ -72,9 +71,9 @@ If a resource is clearly suitable and the issue is minor, make or recommend a ma
 
 ## Output templates
 
-**PR review**
+### PR review
 
-```
+```text
 Decision: accept | maintainer edit | request changes | close | park
 Reason: 1–3 bullets (scope · link · placement · duplicate · description)
 Surface sync: README and website consistent? which changed?
@@ -83,18 +82,18 @@ Suggested comment: <short, warm, authoritative>
 Uncertainty: <or "none">
 ```
 
-**Issue triage**
+### Issue triage
 
-```
+```text
 Decision: draft entry | maintainer edit | request info | close (duplicate/scope) | park
 Reason: 1–3 bullets
 Proposed entry: (README and/or website, in the correct format)
 Suggested comment: <short>
 ```
 
-**Broken-link report**
+### Broken-link report
 
-```
+```text
 Entry: [Name] in <file>
 Status: broken | moved | archived
 Canonical replacement: <url or "none found">
@@ -102,15 +101,15 @@ Recommendation: replace | remove
 Note: <one line>
 ```
 
-**Proposed README entry**
+### Proposed README entry
 
-```
+```text
 - [Name](https://canonical-url) - One neutral factual sentence.
 ```
 
-**Proposed website entry (tagged)**
+### Proposed website entry (tagged)
 
-```
+```text
 - [Name](https://canonical-url) — One neutral factual sentence. `lifecycle:slug` `domain:slug` `type:slug`
 ```
 
@@ -122,5 +121,3 @@ Note: <one line>
 - **Close (duplicate):** "Thank you — I would close as a duplicate; the resource already appears under [section]."
 - **Close (scope):** "Thank you for sharing this. I would close it as outside the current scope of the list."
 - **Park:** "Thank you — worth revisiting, but I would park it until the list has a clearer section for this category."
-
-
