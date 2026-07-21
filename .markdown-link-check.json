@@ -15,7 +15,7 @@
       "pattern": "^https://link\\.springer\\.com/article/10\\.1007/s43681-023-00271-x$" },
     { "_comment": "GitHub Actions workflow badge SVG returns 404 until the workflow has its first run on main; resolves on merge. Regex covers any workflow filename so renames don't require config edits.",
       "pattern": "^https://github\\.com/natnew/awesome-ai-scientists/actions/workflows/[^/]+/badge\\.svg" },
-    { "_comment": "GitHub /stargazers page returns 404 to headless user-agents; verified live in browser.",
+    { "_comment": "GitHub began serving 404 for /stargazers pages to anonymous sessions on 2026-07-20 (site-wide; reproduced in a browser on multiple repos). The badge link works for signed-in visitors.",
       "pattern": "^https://github\\.com/natnew/awesome-ai-scientists/stargazers$" }
   ],
   "httpHeaders": [

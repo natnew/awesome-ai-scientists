@@ -200,7 +200,7 @@ Automating the last mile from results to manuscripts, figures, and reports.
 
 - [AI Scientist Paper Module](https://github.com/SakanaAI/AI-Scientist) - Sakana AI. Generates LaTeX manuscripts with figures, citations, and automated review.
 - [Manubot](https://manubot.org/) - Open-source collaborative manuscripts via Markdown and GitHub-based automation.
-- [SciNote](https://www.scinote.net/) - An open-source ELN with manuscript-writing support.
+- [SciNote](https://github.com/scinote-eln/scinote-web) - An open-source ELN with manuscript-writing support.
 - [SciencePlots](https://github.com/garrettj403/SciencePlots) - One-line Matplotlib style sheets for publication figures.
 - [LLM4Papers](https://github.com/KordingLab/LLM4Papers) - An AI editing agent for Overleaf documents.
 - [Paperpal](https://paperpal.com/) - Academic language improvement trained on scholarly writing.
