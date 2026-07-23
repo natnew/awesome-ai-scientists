@@ -175,6 +175,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
 - [IdeaBench](https://arxiv.org/abs/2411.02429) - A benchmark for evaluating research-idea generation quality.
+- [IdeaGene-Bench](https://visionxlab.github.io/IdeasHaveGenomes/) - A benchmark for evaluating scientific lineage reasoning and lineage-grounded idea generation.
 - [REFUTE](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) - Apache-2.0 benchmark for evaluating scientific critique, falsification, uncertainty calibration, overclaim detection, and evidence-grounded reasoning in LLMs.
 
 ## Datasets for Scientific AI
