@@ -2,7 +2,7 @@
 
 # Awesome AI Scientists
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![CI](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/natnew/awesome-ai-scientists/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/stargazers) [![GitHub forks](https://img.shields.io/github/forks/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/network/members) [![GitHub contributors](https://img.shields.io/github/contributors/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/commits/main) [![GitHub issues](https://img.shields.io/github/issues/natnew/awesome-ai-scientists?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/issues) [![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/natnew/awesome-ai-scientists/blob/main/CONTRIBUTING.md)
 
 A curated collection of resources for building "AI Scientist" systems: AI that assists scientific discovery through literature intelligence, hypothesis generation, experiment planning, tool use, evaluation, and scientific communication.
 
@@ -177,6 +177,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
 - [IdeaBench](https://arxiv.org/abs/2411.02429) - A benchmark for evaluating research-idea generation quality.
+- [IdeaGene-Bench](https://visionxlab.github.io/IdeasHaveGenomes/) - A benchmark for evaluating scientific lineage reasoning and lineage-grounded idea generation.
 - [REFUTE](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) - Apache-2.0 benchmark for evaluating scientific critique, falsification, uncertainty calibration, overclaim detection, and evidence-grounded reasoning in LLMs.
 
 ## Datasets for Scientific AI
@@ -201,7 +202,7 @@ Automating the last mile from results to manuscripts, figures, and reports.
 
 - [AI Scientist Paper Module](https://github.com/SakanaAI/AI-Scientist) - Sakana AI. Generates LaTeX manuscripts with figures, citations, and automated review.
 - [Manubot](https://manubot.org/) - Open-source collaborative manuscripts via Markdown and GitHub-based automation.
-- [SciNote](https://www.scinote.net/) - An open-source ELN with manuscript-writing support.
+- [SciNote](https://github.com/scinote-eln/scinote-web) - An open-source ELN with manuscript-writing support.
 - [SciencePlots](https://github.com/garrettj403/SciencePlots) - One-line Matplotlib style sheets for publication figures.
 - [LLM4Papers](https://github.com/KordingLab/LLM4Papers) - An AI editing agent for Overleaf documents.
 - [Paperpal](https://paperpal.com/) - Academic language improvement trained on scholarly writing.
@@ -227,7 +228,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 
 ### Authorship and Publishing
 
-- [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819), (arXiv 2511.14819, 2025) — Discuss how AI scientists can publish in their own name.
+- [Project Rachel: Can an AI Become a Scholarly Author?](http://arxiv.org/pdf/2511.14819) - Discusses how AI scientists can publish under their own name (arXiv 2511.14819, 2025).
 
 ### Practical Tools
 
@@ -362,7 +363,7 @@ Not science-specific, but widely used to build scientific agent systems.
 
 <h2>Contributing</h2>
 
-<img src="assets/We%20love%20Contributors%20%E2%80%94%20section%20title%20banner.png" alt="We love Contributors" />
+<img src="assets/contributors-banner.png" alt="We love Contributors" />
 
 Thrilled to have you here.<br/>
 Whether it's a quick typo fix, a fresh resource, <br/>a doc polish, or a sweeping overhaul — every contribution helps this list grow.<br/>

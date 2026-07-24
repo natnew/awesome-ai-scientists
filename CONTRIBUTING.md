@@ -20,7 +20,7 @@ Out of scope: generic ML/LLM tooling without a scientific-discovery angle, vendo
 
 Every catalogue entry uses this exact line format:
 
-```
+```text
 - [Name](url) — one-line description. `lifecycle:slug` `domain:slug` `type:slug`
 ```
 
@@ -35,7 +35,7 @@ Rules:
 
 A real entry from [website/docs/domains.md](website/docs/domains.md):
 
-```
+```text
 - [DiffDock](https://github.com/gcorso/DiffDock) — Diffusion-generative model for blind protein–ligand docking; a strong baseline for structure-based drug discovery agents. `lifecycle:tool-use-execution,evaluation` `domain:drug-discovery-chemistry` `type:model,paper`
 ```
 
