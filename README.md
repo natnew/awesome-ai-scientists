@@ -117,6 +117,7 @@ Systems for AI-driven hypothesis generation, novelty detection, and research ide
 
 - [SciMON](https://arxiv.org/abs/2305.14259) - Wang et al., ACL 2024. Retrieves inspirations from prior work and iteratively optimizes ideas for novelty.
 - [ResearchAgent](https://arxiv.org/abs/2404.07738) - Microsoft and KAIST, 2024. Defines problems, proposes methods, and designs experiments with reviewing agents.
+- [IDEAgent](https://github.com/declare-lab/IDEAgent) - A multi-agent research ideation system that applies quality-diversity search to evolve populations of candidate ideas, retaining diverse, high-quality directions for hypothesis generation.
 - [Scideator](https://arxiv.org/abs/2409.14634) - UW and Allen AI. Decomposes papers into facets and recombines them for structured ideation.
 - [KG-CoI](https://arxiv.org/abs/2411.02382) - Xiong et al., 2024. A knowledge-graph-grounded hypothesis generation system with hallucination detection.
 
