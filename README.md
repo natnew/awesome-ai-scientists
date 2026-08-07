@@ -209,6 +209,7 @@ Automating the last mile from results to manuscripts, figures, and reports.
 - [Paperpal](https://paperpal.com/) - Academic language improvement trained on scholarly writing.
 - [Writefull](https://www.writefull.com/) - An academic English writing assistant with Overleaf integration.
 - [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Converts Matplotlib figures to TikZ and PGFPlots for LaTeX.
+- [ScholarCopilot](https://github.com/TIGER-AI-Lab/ScholarCopilot) - TIGER-Lab. LLM trained for academic writing that drafts text with accurate, retrieval-grounded citations.
 
 ## Ethics, Safety & Responsible AI for Science
 
