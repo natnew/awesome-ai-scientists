@@ -1,123 +1,94 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Claude-specific operating layer for **awesome-ai-scientists**, a curated list of resources for building AI Scientist systems. There is no application code: the work is curating Markdown across two surfaces and keeping CI green. **`AGENTS.md` is the full protocol** (scope, trust boundary, quality bar, decision matrix, protected areas, comment style). This file does not restate it. Where the two overlap, `AGENTS.md` wins, with one exception: for entry format, the live files win (see below).
 
-This is a curated awesome list, not an application codebase. `README.md` is the canonical public index; `website/` is its Docusaurus surface. **`AGENTS.md` is the full operating protocol** — scope rules, trust boundary, taxonomy slug tables, cross-surface sync, risk register, and protected areas live there. This file routes Claude to the right context per task and fixes the output format; it does not restate `AGENTS.md`. Where the two overlap, `AGENTS.md` wins.
+## Map
 
-## North Star
-
-Preserve `README.md` as the canonical index and keep `website/docs/` in step with it. Curate selectively over accumulating. Keep entries technically useful, neutral, durable, and scannable. Help the maintainer decide fast and consistently. Do not broaden the repository beyond its stated scope.
-
-## Resolver — load per task
-
-Pull only what the task needs; do not preload everything.
-
-| Task | Load |
+| Path | Role |
 |---|---|
-| **PR review** | the diff · `AGENTS.md` · the affected `README.md` section · the matching `website/docs/` page · `CONTRIBUTING.md` checklist |
-| **Issue triage** | the issue form · README scope · the three taxonomy docs · duplicate candidates in the target section |
-| **Broken link** | the affected entry · search for a canonical replacement · then recommend replace or remove |
-| **Taxonomy work** | `website/docs/workflows.md` · `domains.md` · `resource-types.md` (slug source of truth) |
+| `README.md` | Canonical public index, grouped by lifecycle → domain → meta sections. Also checked by `awesome-lint`. |
+| `website/docs/workflows.md`, `domains.md` | The only site pages that hold tagged entries, under `### … {#slug}` headings. |
+| `website/docs/workflows.md`, `domains.md`, `resource-types.md` | Source of truth for the taxonomy slugs. The slug tables in `AGENTS.md` and `CONTRIBUTING.md` copy them. |
+| `website/docs/start-here.md` | Tagging convention: primary slug first, multi-value axes. |
+| `website/src/`, `docusaurus.config.ts`, `sidebars.ts` | Site infrastructure. Doc order in `sidebars.ts` must match each doc's `sidebar_position`. |
+| `website/scripts/` | `link-check.mjs` checks `README.md`, `CONTRIBUTING.md` and `website/docs/*.md`; `check-sidebar-order.mjs`. |
+| `CONTRIBUTING.md`, `.github/ISSUE_TEMPLATE/*`, `pull_request_template.md` | Contributor workflow. Resource additions are issue-first. |
+| `skills/`, `.agent/` | Maintainer tooling, not part of the catalogue. Ignore unless asked. `feature-spec` needs the local-only `specs/`. |
 
-## First-pass workflow
+`specs/` is gitignored and usually absent. Docs that cite `specs/…` point to maintainer-local files. Do not create or edit it.
 
-1. Read the diff or issue. 2. Check scope (`README.md` / `AGENTS.md`). 3. Check `CONTRIBUTING.md`. 4. Read existing entries in the target section. 5. Search for duplicates across both surfaces. 6. Verify the link where tools allow. 7. Inspect the resource enough to know what it is. 8. Decide the smallest useful action. 9. Produce a concise recommendation or edit.
+## Entry formats (the most common source of errors)
 
-## Stop conditions
+Match the neighbouring entries in the file you edit. Never cross formats.
 
-Stop and ask the maintainer before:
+- **README:** `- [Name](url) - One neutral sentence.` Hyphen separator, no tags.
+- **Site (`workflows.md`, `domains.md`), as used by 58 of 59 live entries:**
 
-- Editing any **protected area** (badges, Contents/TOC, contributor banners, sponsor blocks, `LICENSE`, `CODEOWNERS`, generated output, `specs/`, local-only files).
-- Creating a **new taxonomy slug** — propose it in an issue instead.
-- **Broad README restructuring** or section reordering.
-- Accepting a resource whose **scientific-discovery relevance is unclear**.
+  ```text
+  - **[Name](url)** — One neutral sentence. *Tags: <code>lifecycle:slug</code> · <code>domain:slug</code> · <code>type:slug</code>*
+  ```
 
-Also stop on any `AGENTS.md` "Stop and ask" condition (taxonomy ambiguity, cross-surface drift, no canonical source, failing checks).
+`AGENTS.md`, `CONTRIBUTING.md` and the PR template show a simpler form, `` `lifecycle:…` `domain:…` `type:…` ``. Entries that copied it have drifted: IdeaGene-Bench in `workflows.md`, and Agon and "What's Missing in Autonomous Research?" in `README.md`, which carry em-dashes and tags. Flag this drift. Do not fix it outside the task you were given.
 
-## Commands
+The three tags are required. Separate several slugs on one axis with commas, primary slug first, no spaces. The primary slug is the one matching the section the entry sits in. The same resource may appear in two site sections with its primary slug reordered (STORM is an example). That is intended, not a duplicate.
 
-Run from `website/` (Node ≥ 20). Do not run destructive or long-running commands unless asked; report results in one line.
+## Task routing
 
-```bash
-cd website
-npm install            # first time
-npm run start          # local preview at http://localhost:3000/
-npm run build          # production build — CI gate
-npm run link-check     # validate markdown links (root + docs) — CI gate
-npm run check-sidebar-order  # verify docs sidebar order — CI gate
-```
+Load only what the task needs.
 
-Markdown lint, from repo root: `npx markdownlint-cli2 "**/*.md"`.
+| Task | Read |
+|---|---|
+| Add or review a resource | The linked issue (additions need one), the target `README.md` section and its matching site section, `AGENTS.md` (scope, quality bar, placement, duplicates). |
+| Issue triage | The issue form fields, the README scope, the three taxonomy pages, and duplicate candidates on both surfaces and in open issues and PRs. |
+| Broken or outdated link | The entry on both surfaces. Find the canonical replacement, then recommend replace or remove. Check `.markdown-link-check.json` ignores before calling a link dead. |
+| Taxonomy question | The three taxonomy pages. New slugs go to an issue with at least 3 candidate entries. Never add one inline. |
+| Site or CI change | `website/`, `.github/workflows/`, and the relevant config. Keep the action pinning policy noted in `ci.yml`. |
 
-CI (`.github/workflows/ci.yml`) runs three jobs on any `**/*.md` or `website/**` change — **Build**, **Link check + sidebar order**, **Markdownlint** — and a change must pass all three. Config: `.markdown-link-check.json`, `.markdownlint-cli2.jsonc`.
+Duplicate search should grep both surfaces by project or org name, not only by URL, because repositories get renamed. For large link sweeps or cross-surface audits, fan independent checks out to parallel subagents. For a single entry, work inline.
 
-## Architecture
+## Hard stops (ask the maintainer)
 
-- **`README.md`** — index. Plain format: `- [Name](url) - one sentence.` (hyphen, **no tags**), grouped by lifecycle, then domain, then meta.
-- **`website/docs/*.md`** — tagged site. Canonical format: `- [Name](url) — one sentence. \`lifecycle:slug\` \`domain:slug\` \`type:slug\`` (em-dash, **three tags required**).
-- **Two surfaces, one catalogue.** A resource usually touches the right `website/docs/` page and, where it fits, the matching `README.md` section. **Infer format from the file you edit; never cross the formats.**
+Ask the maintainer before any of the following:
 
-## Maintainer process files
+- Editing a protected area listed in `AGENTS.md`: badges, the Contents block, banners, the sponsor block, `LICENSE`, `CODEOWNERS`, generated output, `specs/`, local-only files.
+- Adding a new taxonomy slug or a new section.
+- Reordering or restructuring `README.md`.
+- Adding a resource whose scientific-discovery relevance or canonical source is unclear.
+- Leaving README and site out of sync.
+- Leaving a check failing when you cannot confidently fix it.
 
-`CONTRIBUTING.md` (issue-first workflow, full checklist) · `.github/ISSUE_TEMPLATE/*` (submit-resource → `new-resource`; report-issue → `link-health`) · `pull_request_template.md` · `MAINTAINERS.md` · `.github/CODEOWNERS` (auto-routes review to @natnew).
+Any other `AGENTS.md` "Stop and ask" condition also applies.
 
-## Description rules
+## Verification
 
-Convert to concise, neutral language answering at least one of: what is it? what technical problem does it address? what category is it? why is it useful? Remove or neutralise: best, latest, most advanced, powerful, revolutionary, cutting-edge, game-changing, industry-leading, fastest, and unsupported performance, adoption, or pricing claims.
+CI decides whether a change passes. Run the checks that match what you changed:
 
-## Small safe fix rule
+| Changed | Check | Where |
+|---|---|---|
+| Any `.md` | `npx markdownlint-cli2@0.17.2 "**/*.md"` (config: `.markdownlint-cli2.jsonc`) | repo root |
+| `README.md` | `npx awesome-lint README.md` (the `awesome-lint.yml` workflow) | repo root |
+| Links in the README, CONTRIBUTING or docs | `npm run link-check` | `website/` |
+| `website/docs/` or `sidebars.ts` | `npm run check-sidebar-order`, then `npm run build` | `website/` |
 
-If a resource is clearly suitable and the issue is minor, make or recommend a maintainer edit rather than asking the contributor to revise. Safe fixes: tighten description, remove hype, fix punctuation, correct placement, swap a non-canonical URL for the canonical one, match bullet formatting, strip tracking parameters.
+- Pin markdownlint to the version CI uses. The unpinned latest release adds rule MD060, which flags existing tables that CI accepts.
+- Run `npm ci` in `website/` first (Node ≥ 20). `node_modules` is not committed.
+- `link-check` needs network access, is slow, and checks every target file. Run it once, after your edits.
+- A link that returns 403 or 429, or is walled to bots, is not proof it is dead. Say so rather than removing it.
+- Do not run `npm run start` or other long-running commands unless asked.
+- Report each result in one line. If a check cannot run here (for example, no network), say so. Do not claim it passed.
 
-## Output templates
+## Completion
 
-### PR review
+Make small, safe maintainer fixes yourself rather than asking contributors: tighten wording, remove hype, use the canonical URL, strip tracking parameters, fix punctuation or placement. Every answer ends with:
 
 ```text
-Decision: accept | maintainer edit | request changes | close | park
+Decision: accept | maintainer edit | request changes | close | park   (or: draft entry | request info for triage)
 Reason: 1–3 bullets (scope · link · placement · duplicate · description)
-Surface sync: README and website consistent? which changed?
-Files touched: paths or "none"
-Suggested comment: <short, warm, authoritative>
-Uncertainty: <or "none">
+Surface sync: README and site consistent? Which changed, and why only one if so
+Files touched: paths, or "none"
+Checks: which ran and their result, or why not run
+Suggested comment: short, warm, decision-oriented (style: AGENTS.md)
+Uncertainty: anything the maintainer should confirm, or "none"
 ```
 
-### Issue triage
-
-```text
-Decision: draft entry | maintainer edit | request info | close (duplicate/scope) | park
-Reason: 1–3 bullets
-Proposed entry: (README and/or website, in the correct format)
-Suggested comment: <short>
-```
-
-### Broken-link report
-
-```text
-Entry: [Name] in <file>
-Status: broken | moved | archived
-Canonical replacement: <url or "none found">
-Recommendation: replace | remove
-Note: <one line>
-```
-
-### Proposed README entry
-
-```text
-- [Name](https://canonical-url) - One neutral factual sentence.
-```
-
-### Proposed website entry (tagged)
-
-```text
-- [Name](https://canonical-url) — One neutral factual sentence. `lifecycle:slug` `domain:slug` `type:slug`
-```
-
-## Maintainer comment templates
-
-- **Accept:** "Thank you — relevant, the link is canonical, and the placement works. I would accept this."
-- **Maintainer edit:** "Thank you — I would accept with a small edit to tighten the description and keep the wording neutral."
-- **Request changes:** "Thank you — this could fit, but I would ask for a little more context on why this is the canonical source and where it belongs."
-- **Close (duplicate):** "Thank you — I would close as a duplicate; the resource already appears under [section]."
-- **Close (scope):** "Thank you for sharing this. I would close it as outside the current scope of the list."
-- **Park:** "Thank you — worth revisiting, but I would park it until the list has a clearer section for this category."
+For a broken link, use this format instead: `Entry · Status (broken/moved/archived) · Canonical replacement · Recommendation (replace/remove) · Note`.
