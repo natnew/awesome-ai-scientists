@@ -78,7 +78,7 @@ Landmark systems that define the AI Scientist paradigm.
 
 ## Surveys & Overviews
 
-- [What's Missing in Autonomous Research?](https://haizhaoyang.github.io/research/autoresearch-survey.html) — Ren et al., 2026. A systematization of 56 autonomous-research systems that separates what a system can produce from what it can defend, and formalizes missing release-gate architecture. `lifecycle:literature-intelligence,evaluation` `domain:cross-domain` `type:paper,blog-essay`
+- [What's Missing in Autonomous Research?](https://haizhaoyang.github.io/research/autoresearch-survey.html) - Ren et al., 2026. A systematization of 56 autonomous-research systems that separates what a system can produce from what it can defend, and formalizes missing release-gate architecture.
 - [Scientific Discovery in the Age of AI](https://www.nature.com/articles/s41586-023-06221-2) - Nature, 2023. A broad review of AI breakthroughs across the research lifecycle.
 - [Agentic AI for Scientific Discovery](https://arxiv.org/abs/2503.08979) - 2025. Categorizes existing systems across chemistry, biology, and materials science.
 - [Towards Scientific Intelligence: LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047) - 2025. A taxonomy of LLM-based scientific agent architectures and evaluation benchmarks.
@@ -92,7 +92,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [PaperQA2](https://github.com/Future-House/paper-qa) - FutureHouse. An agentic RAG system for scientific literature search, summarization, and contradiction detection.
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
-- [BGPT](https://github.com/connerlambden/bgpt-mcp) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
+- [BGPT](https://bgpt.pro/mcp/) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
 
 ### Knowledge Graphs & Metadata APIs
 
@@ -157,7 +157,7 @@ Frameworks connecting AI reasoning to scientific databases, code execution, and 
 
 Systems where multiple specialized agents collaborate, debate, and refine scientific work.
 
-- [Agon](https://github.com/AutoResearch-Factory/Agon) — Sun et al., 2026. An autonomous large-scale omnidisciplinary research system built around Prompt Economy with scientist, coder, and auditor loops coordinated by prompt dispatchers. `lifecycle:hypothesis-generation,tool-use-execution` `domain:cross-domain` `type:agent-system,paper`
+- [Agon](https://github.com/AutoResearch-Factory/Agon) - Sun et al., 2026. An autonomous large-scale omnidisciplinary research system built around Prompt Economy with scientist, coder, and auditor loops coordinated by prompt dispatchers.
 - [SciAgents](https://arxiv.org/abs/2409.05556) - Ghafarollahi and Buehler, MIT 2024. A KG plus multi-agent pipeline for materials discovery built on AutoGen.
 - [AgenticSciML](https://arxiv.org/html/2511.07262v1) - 2025. Uses proposers, critics, engineers, retrievers, and evaluators for scientific ML.
 - [VirSci](https://arxiv.org/abs/2410.09403) - Su et al., 2024. Uses agents with different scientific backgrounds to improve research potential.
@@ -220,7 +220,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [Dual-use capabilities of concern of biological AI models](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011354) - Carter, Sandbrink et al., 2025. Proposes evaluation methods with preset risk thresholds and mitigation actions.
 - [AI Hallucination Taxonomy](https://www.nature.com/articles/s41599-023-02523-8) - Zhou et al., 2024. A classification of distorted information in AI-generated content.
 - [The ethics of using AI in scientific research](https://link.springer.com/article/10.1007/s43681-023-00271-x) - Resnik & Hosseini, 2024. Actionable recommendations for responsible AI use in science.
-- [AI Scientist Evaluation (ARI)](https://www.alignmentforum.org/posts/Rz9kXk4JbH9jKz5z/evaluation-of-automated-scientist-v1) - A critical assessment of AI Scientist v1 limitations, failure modes, and risks.
+- [AI Scientist Evaluation (ARI)](https://arxiv.org/abs/2502.14297) - Beel, Kan & Baumgart, 2025. A critical assessment of AI Scientist v1 limitations, failure modes, and risks.
 
 ### Policy Frameworks
 
@@ -252,7 +252,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [DiffDock](https://github.com/gcorso/DiffDock) - MIT, 2022. Diffusion-based molecular docking.
 - [REINVENT 4](https://github.com/MolecularAI/REINVENT4) - AstraZeneca. De novo drug design via reinforcement learning.
 - [MoleculeSTM](https://github.com/chao1224/MoleculeSTM) - Multi-modal molecular understanding across SMILES, graphs, and text.
-- [AutoDock Vina](https://vina.scripps.edu/) - A fast and widely used molecular docking system.
+- [AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina) - A fast and widely used molecular docking system.
 - [Uni-Mol](https://github.com/dptech-corp/Uni-Mol) - A 3D molecular pretraining framework.
 
 ### Retrosynthesis & Reactions
@@ -358,7 +358,6 @@ Not science-specific, but widely used to build scientific agent systems.
 
 - [Awesome-LLM-Scientific-Discovery](https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery) - HKUST. A broad list of LLM resources across the scientific method.
 - [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) - A broad AI-for-science resource list across domains.
-- [Awesome Self-Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs) - A directory of autonomous experimentation resources.
 - [LLMs-in-science](https://github.com/ur-whitelab/LLMs-in-science) - White Lab. A living bibliography of LLM scientific agents.
 
 <div align="center">
