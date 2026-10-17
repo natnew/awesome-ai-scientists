@@ -93,6 +93,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
 - [BGPT](https://bgpt.pro/mcp/) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
+- [Nujan](https://nujan.app) - Split-view scientific paper reader with dual-pane PDF and AI assistance, mathematical derivation breakdowns, methodological critique, and multi-paper synthesis.
 
 ### Knowledge Graphs & Metadata APIs
 
