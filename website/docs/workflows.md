@@ -111,6 +111,7 @@ Designing protocols, simulations, and adaptive study procedures. The dominant pa
 - **[Optuna](https://optuna.org/)** — Define-by-run hyperparameter and experiment optimization framework with pruning and distributed trials. *Tags: <code>lifecycle:experiment-planning</code> · <code>domain:cross-domain</code> · <code>type:framework</code>*
 - **[Emukit](https://github.com/EmuKit/emukit)** — Toolkit for emulation, multi-fidelity modelling, and experimental design over expensive simulators. *Tags: <code>lifecycle:experiment-planning</code> · <code>domain:cross-domain</code> · <code>type:framework</code>*
 - **[BayBE](https://github.com/emdgroup/baybe)** — Merck's Bayesian Back End, a domain-aware experiment planner aimed at chemistry and formulations campaigns. *Tags: <code>lifecycle:experiment-planning</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:framework,tool</code>*
+- **[A Society of Researchers](https://arxiv.org/abs/2610.10468)** — Design principles for institutions and resource-allocation rules that organise large populations of autonomous research agents without a central task manager, with humans limited to governance. *Tags: <code>lifecycle:experiment-planning</code> · <code>domain:cross-domain</code> · <code>type:paper</code>*
 
 ### Tool use & execution {#tool-use-execution}
 

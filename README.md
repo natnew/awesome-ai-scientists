@@ -162,6 +162,7 @@ Systems where multiple specialized agents collaborate, debate, and refine scient
 - [AgenticSciML](https://arxiv.org/html/2511.07262v1) - 2025. Uses proposers, critics, engineers, retrievers, and evaluators for scientific ML.
 - [VirSci](https://arxiv.org/abs/2410.09403) - Su et al., 2024. Uses agents with different scientific backgrounds to improve research potential.
 - [AgentRxiv](https://arxiv.org/abs/2503.18102) - Schmidgall et al., 2025. A centralized preprint server where autonomous agents publish and build on each other's work.
+- [A Society of Researchers](https://arxiv.org/abs/2610.10468) - 2026. Proposes institutions and resource-allocation rules that organise large populations of autonomous research agents without a central task manager, with humans limited to governance.
 - [Multi-Agent Debate](https://arxiv.org/abs/2305.14325) - Du et al., ICML 2024. Foundational work showing that debate between LLM instances improves reasoning.
 - [ChatDev](https://github.com/OpenBMB/ChatDev) - A multi-agent software development framework adaptable to scientific workflows.
 - [CAMEL](https://github.com/camel-ai/camel) - A role-playing agent communication framework.
