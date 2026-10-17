@@ -175,6 +175,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [GPQA](https://arxiv.org/abs/2311.12022) - Rein et al., 2023. Graduate-level Google-proof questions across biology, physics, and chemistry.
 - [SciCode](https://scicode-bench.github.io/) - NeurIPS 2024. Research coding problems across 16 scientific subdomains.
 - [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - A benchmark suite for research-agent experimentation ability.
+- [ST-Bench (multi-agent system generation)](https://arxiv.org/abs/2610.07763) - 2026. A benchmark that evaluates how well LLMs generate multi-agent systems for scientific research tasks with spatial and temporal structure.
 - [SciFact](https://github.com/allenai/scifact) - A benchmark for scientific claim verification.
 - [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
