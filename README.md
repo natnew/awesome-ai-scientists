@@ -323,6 +323,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [LeanDojo](https://leandojo.org/) - An end-to-end framework for AI theorem proving in Lean 4.
 - [AlphaProof](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) - DeepMind's IMO-level mathematical reasoning system.
 - [AlphaGeometry 2](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) - DeepMind's olympiad geometry theorem prover.
+- [Learning to Discover Interesting Mathematics](https://arxiv.org/abs/2609.28603) - Patel et al., 2026. Trains an LLM conjecturer against a proof-to-statement-length interestingness signal and grows a library of Lean-verified theorems with reduced overlap with Mathlib.
 - [DeepXDE](https://deepxde.readthedocs.io/) - Physics-informed neural networks for differential equations.
 - [torchdiffeq](https://github.com/rtqichen/torchdiffeq) - Neural ordinary differential equations in PyTorch.
 - [SciML](https://sciml.ai/) - The Julia ecosystem for scientific ML and differential equation solving.
