@@ -93,6 +93,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
 - [BGPT](https://bgpt.pro/mcp/) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
+- [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) - MCP server for full-text search over peer-reviewed computer-science papers, citation traversal, evidence extraction, and claim verification against verbatim source passages; requires a Lune account.
 
 ### Knowledge Graphs & Metadata APIs
 
