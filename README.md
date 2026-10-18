@@ -96,6 +96,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [Nujan](https://nujan.app) - Split-view scientific paper reader with dual-pane PDF and AI assistance, mathematical derivation breakdowns, methodological critique, and multi-paper synthesis.
 =======
 - [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) - MCP server for full-text search over peer-reviewed computer-science papers, citation traversal, evidence extraction, and claim verification against verbatim source passages; requires a Lune account.
+- [Nujan](https://nujan.app) - Split-view scientific paper reader with dual-pane PDF and AI assistance, mathematical derivation breakdowns, methodological critique, and multi-paper synthesis.
 
 
 ### Knowledge Graphs & Metadata APIs
