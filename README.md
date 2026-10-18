@@ -93,6 +93,7 @@ Tools for searching, retrieving, synthesizing, and extracting knowledge from sci
 - [OpenScholar](https://arxiv.org/abs/2411.14199) - Allen AI and UW, Nature 2025. An open retrieval-augmented LM that searches 45M open-access papers.
 - [Elicit](https://elicit.com) - An AI research assistant for structured literature extraction and screening.
 - [BGPT](https://bgpt.pro/mcp/) - REST, Python, and MCP API for scientific paper search, returning structured study evidence such as methods, sample sizes, limitations, quality scores, conflicts of interest, and data availability.
+- [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) - MCP server for full-text search over peer-reviewed computer-science papers, citation traversal, evidence extraction, and claim verification against verbatim source passages; requires a Lune account.
 - [Nujan](https://nujan.app) - Split-view scientific paper reader with dual-pane PDF and AI assistance, mathematical derivation breakdowns, methodological critique, and multi-paper synthesis.
 
 ### Knowledge Graphs & Metadata APIs
@@ -163,6 +164,7 @@ Systems where multiple specialized agents collaborate, debate, and refine scient
 - [AgenticSciML](https://arxiv.org/html/2511.07262v1) - 2025. Uses proposers, critics, engineers, retrievers, and evaluators for scientific ML.
 - [VirSci](https://arxiv.org/abs/2410.09403) - Su et al., 2024. Uses agents with different scientific backgrounds to improve research potential.
 - [AgentRxiv](https://arxiv.org/abs/2503.18102) - Schmidgall et al., 2025. A centralized preprint server where autonomous agents publish and build on each other's work.
+- [A Society of Researchers](https://arxiv.org/abs/2610.10468) - 2026. Proposes institutions and resource-allocation rules that organise large populations of autonomous research agents without a central task manager, with humans limited to governance.
 - [Multi-Agent Debate](https://arxiv.org/abs/2305.14325) - Du et al., ICML 2024. Foundational work showing that debate between LLM instances improves reasoning.
 - [ChatDev](https://github.com/OpenBMB/ChatDev) - A multi-agent software development framework adaptable to scientific workflows.
 - [CAMEL](https://github.com/camel-ai/camel) - A role-playing agent communication framework.
@@ -175,6 +177,7 @@ Measuring scientific AI capabilities across reasoning, coding, and autonomous re
 - [GPQA](https://arxiv.org/abs/2311.12022) - Rein et al., 2023. Graduate-level Google-proof questions across biology, physics, and chemistry.
 - [SciCode](https://scicode-bench.github.io/) - NeurIPS 2024. Research coding problems across 16 scientific subdomains.
 - [MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - A benchmark suite for research-agent experimentation ability.
+- [ST-Bench (multi-agent system generation)](https://arxiv.org/abs/2610.07763) - 2026. A benchmark that evaluates how well LLMs generate multi-agent systems for scientific research tasks with spatial and temporal structure.
 - [SciFact](https://github.com/allenai/scifact) - A benchmark for scientific claim verification.
 - [SciBench](https://github.com/mandyyyyii/scibench) - Open-ended collegiate STEM problem solving.
 - [BioASQ](http://bioasq.org/) - Biomedical information retrieval and question answering.
@@ -324,6 +327,7 @@ Dual-use concerns, hallucination, reproducibility, epistemic integrity, and gove
 - [LeanDojo](https://leandojo.org/) - An end-to-end framework for AI theorem proving in Lean 4.
 - [AlphaProof](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) - DeepMind's IMO-level mathematical reasoning system.
 - [AlphaGeometry 2](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) - DeepMind's olympiad geometry theorem prover.
+- [Learning to Discover Interesting Mathematics](https://arxiv.org/abs/2609.28603) - Patel et al., 2026. Trains an LLM conjecturer against a proof-to-statement-length interestingness signal and grows a library of Lean-verified theorems with reduced overlap with Mathlib.
 - [DeepXDE](https://deepxde.readthedocs.io/) - Physics-informed neural networks for differential equations.
 - [torchdiffeq](https://github.com/rtqichen/torchdiffeq) - Neural ordinary differential equations in PyTorch.
 - [SciML](https://sciml.ai/) - The Julia ecosystem for scientific ML and differential equation solving.
