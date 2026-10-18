@@ -91,6 +91,7 @@ Search, summarization, citation graphs, and structured knowledge extraction over
 - **[SPECTER2](https://github.com/allenai/SPECTER2)** — Scientific document embeddings from Allen AI for retrieval, recommendation, and citation prediction. *Tags: <code>lifecycle:literature-intelligence</code> · <code>domain:cross-domain</code> · <code>type:model</code>*
 - **[What's Missing in Autonomous Research?](https://haizhaoyang.github.io/research/autoresearch-survey.html)** — Ren et al. survey of 56 autonomous-research systems that separates generation capability from defensibility and release-gate verification. *Tags: <code>lifecycle:literature-intelligence,evaluation</code> · <code>domain:cross-domain</code> · <code>type:paper,blog-essay</code>*
 - **[STORM](https://github.com/stanford-oval/storm)** — Stanford OVAL system that drafts Wikipedia-style articles by retrieving and synthesizing sources end-to-end. *Tags: <code>lifecycle:literature-intelligence,scientific-communication</code> · <code>domain:cross-domain</code> · <code>type:agent-system,framework</code>*
+- **[Nujan](https://nujan.app)** — Split-view scientific paper reader with dual-pane PDF and AI assistance, mathematical derivation breakdowns, methodological critique, and multi-paper synthesis. *Tags: <code>lifecycle:literature-intelligence</code> · <code>domain:cross-domain</code> · <code>type:tool</code>*
 
 ### Hypothesis generation {#hypothesis-generation}
 
