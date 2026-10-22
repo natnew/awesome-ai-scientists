@@ -136,6 +136,7 @@ Benchmarks, reproducibility checks, and result validation. Without these, "AI sc
 - **[LAB-Bench](https://github.com/Future-House/LAB-Bench)** — FutureHouse benchmark for biology research tasks (literature, figures, protocols, DBQA, cloning); aimed squarely at scientific agents. *Tags: <code>lifecycle:evaluation</code> · <code>domain:genomics-biology</code> · <code>type:benchmark,dataset</code>*
 - **[ScienceQA](https://scienceqa.github.io/)** — Multimodal multiple-choice science benchmark with chain-of-thought explanations across grade-school science domains. *Tags: <code>lifecycle:evaluation</code> · <code>domain:cross-domain</code> · <code>type:benchmark,dataset</code>*
 - **[IdeaGene-Bench](https://visionxlab.github.io/IdeasHaveGenomes/)** — Benchmark for scientific lineage reasoning and lineage-grounded idea generation using Idea Genome objects and lineage traces. `lifecycle:evaluation,hypothesis-generation` `domain:cross-domain` `type:benchmark,dataset,paper`
+- **[Agent4Sci](https://arxiv.org/abs/2610.28763)** — Twenty long-horizon scientific-ML benchmarks across 11 domains that test whether frontier agents beat published best results; most reported gains came from ML engineering rather than research insight. `lifecycle:evaluation` `domain:cross-domain` `type:benchmark,paper`
 
 ### Scientific communication {#scientific-communication}
 
