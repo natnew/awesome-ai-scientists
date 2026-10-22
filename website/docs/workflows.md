@@ -124,6 +124,7 @@ Code generation, lab automation, simulators, and agent frameworks that let a sys
 - **[AutoGen](https://github.com/microsoft/autogen)** — Microsoft framework for multi-agent conversation patterns and code execution; used in several published scientific agent setups. *Tags: <code>lifecycle:tool-use-execution</code> · <code>domain:cross-domain</code> · <code>type:framework</code>*
 - **[smolagents](https://github.com/huggingface/smolagents)** — Hugging Face's minimalist code-acting agent library; agents emit Python that is executed in a sandbox. *Tags: <code>lifecycle:tool-use-execution</code> · <code>domain:cross-domain</code> · <code>type:framework</code>*
 - **[Opentrons](https://github.com/Opentrons/opentrons)** — Open-source software stack for OT-2 / Flex liquid-handling robots; the canonical "agent talks to a wet lab" surface. *Tags: <code>lifecycle:tool-use-execution</code> · <code>domain:genomics-biology</code> · <code>type:framework,tool</code>*
+- **[Sage-A1.5](https://arxiv.org/abs/2610.28578)** — Open-weights 35B mixture-of-experts agentic model that delegates to parallel subagents, self-checks progress and evidence, and leaves inspectable research artefacts. `lifecycle:tool-use-execution,hypothesis-generation` `domain:cross-domain` `type:model,agent-system,paper`
 
 ### Evaluation {#evaluation}
 
