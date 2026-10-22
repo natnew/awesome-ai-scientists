@@ -171,6 +171,7 @@ Systems where multiple specialized agents collaborate, debate, and refine scient
 - [Multi-Agent Debate](https://arxiv.org/abs/2305.14325) - Du et al., ICML 2024. Foundational work showing that debate between LLM instances improves reasoning.
 - [ChatDev](https://github.com/OpenBMB/ChatDev) - A multi-agent software development framework adaptable to scientific workflows.
 - [CAMEL](https://github.com/camel-ai/camel) - A role-playing agent communication framework.
+- [Sage-A1.5](https://arxiv.org/abs/2610.28578) - Intern Science (Shanghai AI Laboratory), 2026. An open-weights 35B mixture-of-experts agentic model that delegates to parallel subagents with separate contexts, checks its own progress and evidence, and leaves inspectable research artefacts. [Model](https://huggingface.co/InternScience/Sage-A1.5).
 
 ## Benchmarks & Evaluation
 
