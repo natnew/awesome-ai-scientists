@@ -125,6 +125,7 @@ Systems for AI-driven hypothesis generation, novelty detection, and research ide
 - [IDEAgent](https://github.com/declare-lab/IDEAgent) - A multi-agent research ideation system that applies quality-diversity search to evolve populations of candidate ideas, retaining diverse, high-quality directions for hypothesis generation.
 - [Scideator](https://arxiv.org/abs/2409.14634) - UW and Allen AI. Decomposes papers into facets and recombines them for structured ideation.
 - [KG-CoI](https://arxiv.org/abs/2411.02382) - Xiong et al., 2024. A knowledge-graph-grounded hypothesis generation system with hallucination detection.
+- [SpecEvo](https://arxiv.org/abs/2610.28706) - Ha et al., NUS, 2026. An evolutionary search framework in which cheap LLMs do most of the exploring and a frontier model steps in at a few checkpoints, matching frontier-only baselines at up to 80% lower API cost. [Code](https://github.com/langkhachhoha/SpecEvo).
 
 ## Experiment Planning & Design
 

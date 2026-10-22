@@ -103,6 +103,7 @@ Proposing novel, testable scientific claims grounded in prior work. Resources he
 - **[SciAgents](https://arxiv.org/abs/2409.05556)** — Multi-agent graph-reasoning framework (Buehler) for materials hypothesis generation across an ontological knowledge graph. *Tags: <code>lifecycle:hypothesis-generation</code> · <code>domain:materials-science</code> · <code>type:paper,agent-system</code>*
 - **[Towards an AI co-scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)** — Google Research's multi-agent system that generates, debates, and ranks hypotheses for a target research goal. *Tags: <code>lifecycle:hypothesis-generation</code> · <code>domain:cross-domain</code> · <code>type:blog-essay,agent-system</code>*
 - **[Coscientist](https://github.com/gomesgroup/coscientist)** — Boiko et al. autonomous agent that designs, plans, and executes chemical experiments; the Nature paper is a canonical hypothesis-to-execution case study. *Tags: <code>lifecycle:hypothesis-generation,tool-use-execution</code> · <code>domain:drug-discovery-chemistry</code> · <code>type:agent-system,paper</code>*
+- **[SpecEvo](https://arxiv.org/abs/2610.28706)** — Multi-LLM evolutionary search for scientific discovery in which cheap models explore and a frontier model intervenes at sparse checkpoints, cutting API cost by up to 80% against frontier-only baselines. `lifecycle:hypothesis-generation,experiment-planning` `domain:cross-domain` `type:framework,paper`
 
 ### Experiment planning {#experiment-planning}
 
