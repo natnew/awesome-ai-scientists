@@ -75,6 +75,7 @@ Landmark systems that define the AI Scientist paradigm.
 - [AI-Researcher](https://github.com/HKUDS/AI-Researcher) - NeurIPS 2025. A full pipeline from literature review to publication.
 - [Kosmos](https://github.com/jimmc414/Kosmos) - Supports 200 parallel agent rollouts and large code-generation runs.
 - [Stanford Ideation Study](https://arxiv.org/abs/2409.04109) - Si, Yang, and Hashimoto, 2024. LLM-generated research ideas were judged more novel than expert human ideas in blind evaluation.
+- [AutoResearch](https://autoresearch.me/en/) — Hosted browser-based system connecting literature exploration, testable ideas, model implementation, GPU experiments and manuscript drafting toward an evidence-backed paper; private beta, application and administrator approval required, with 5,000 limited starter credits. `lifecycle:literature-intelligence,hypothesis-generation,tool-use-execution,scientific-communication` `domain:cross-domain` `type:tool`
 
 ## Surveys & Overviews
 
