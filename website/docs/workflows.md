@@ -76,6 +76,12 @@ See [start-here](./start-here.md#how-entries-are-organized) for the full three-a
   </Link>
 </div>
 
+## End-to-end systems
+
+Hosted or packaged systems that span more than one lifecycle stage, from a research direction toward a manuscript.
+
+- **[AutoResearch](https://autoresearch.me/en/)** — Hosted browser-based system connecting literature exploration, testable ideas, model implementation, GPU experiments and manuscript drafting toward an evidence-backed paper; private beta, application and administrator approval required, with 5,000 limited starter credits. *Tags: <code>lifecycle:literature-intelligence,hypothesis-generation,tool-use-execution,scientific-communication</code> · <code>domain:cross-domain</code> · <code>type:tool</code>*
+
 ## Resources by lifecycle stage
 
 Hand-picked entries grouped by canonical lifecycle slug. Every bullet carries the full three-axis tag set (`lifecycle:` · `domain:` · `type:`) locked in [Phase 2](./start-here.md#how-entries-are-organized). Anchors below match the lifecycle slugs verbatim so external links stay stable.
